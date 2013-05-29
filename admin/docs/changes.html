@@ -1,0 +1,43 @@
+<h2>Changes:</h2>
+<table border="0">
+<tr>
+<td width="100">2012-01-05</td><td>Added semaphore locking to page entry keys, user control constants for comment cookie and timeouts.</td>
+</tr><tr>
+<td>2012-01-11</td><td>Added user-defined filter to prevent caching (e.g. rss feeds, images, etc.), additional debug information shown in the headers (user-selectable), control path execution setting, shows the cache version during both cache and non-cache/DB transactions, change flush all cache to domain specific cache flushing during a page, post or comment update.
+ 
+Corrected the hashing of the cache key and removal of the page info and page lock during an admin update.</td>
+</tr><tr>
+<td>2012-01-12</td><td>Remove trailing slash from URL before hashing for memcache</td>
+</tr><tr>
+<td>2012-01-16</td><td>Added two additional WP-CONFIG settings for defining the memcache server port, memcache replication algorithm</td>
+</tr><tr>
+<td>2012-01-19</td><td>Remove code for SQL_CALC_FOUND_ROWS as appropriate fix is placed in the home.php of the theme and  remove test for comment in the url, thud relying on the detection of the comment author cookie as an indicator not to cache.</td>
+</tr><tr>
+<td>2012-01-23</td><td>Added helpful header parameters that indicates which user type is pulling from the DB (Visitor, Comment Author, Administrator, Editor, Author, Contributor, or Subscriber)</td>
+</tr><tr>
+<td>2012-01-24</td><td>Documentation update to add notes concerning database and object (wordpress default) caching.</td>
+</tr><tr>
+<td>2012-02-03</td><td>Removed protocol from memcache key, made memcache locks domain specific</td>
+</tr><tr>
+<td>2012-02-08</td><td>Added check for memcache extension is available, if not writes error to apache log.</td>
+</tr><tr>
+<td>2012-02-09</td><td>Added additional error logging to the apache log file when memcache extension is not loaded, and additional header information regarding memcache connectivity.</td>
+</tr><tr>
+<td>2012-02-17</td><td>Restored protocol in url memcache key construction, add trace points for on demand debugging, cleaned up redundant code. </td>
+</tr><tr>
+<td>2012-02-23</td><td>Changed from a drop in to a plug in with dependency checking code. PHP Version 5.3 is the minimum requirement.</td>
+</tr><tr>
+<td>2012-03-14</td><td>Added WP_TRUECACHE_CHECK_PERMISSIONS constant to enable file permission checking during plugin activation, added cache path creation code, change absolute path to relative path.</td>
+</tr><tr>
+<td>2012-04-06</td><td>Added admin page for Memcache and File cache, admin notification of memcache errors, email and apache log file logging for plugin errors.</td>
+</tr>
+<tr>
+<td>2012-04-16</td><td>Added Memcached Server management page, extracted from WPMemcacheManager plugin, initial File cache admin page, email notification of memcache and php errors, admin notification of memcache connectivity status, embedded documentation, auto update notification to provide plugin updating like wordpress.org but on a private host, memcache error logging to apache log, send email and log in apache when plugin is activated and deactivated, check for existing caching plugins before activation</td>
+</tr>
+<tr>
+<td>2012-04-17</td><td>Send when memcache connection is down completely.</td>
+</tr>
+<tr>
+<td>2012-04-18</td><td>Fixed long page loading as a result of locks not being cleared when not in use.</td>
+</tr>
+</table> 

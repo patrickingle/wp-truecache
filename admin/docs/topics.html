@@ -1,0 +1,28 @@
+<h2>Database Caching</h2>
+<p>While page caching is sufficient for visitor traffic, database caching may be needed when there are too many bloggers and comment authors accessing the database simultaneously. When implementing database caching, care must be taken due to compatibility issues between plugins using the the db.php file. To implement database caching involves modifying the existing hyperdb db object (in db.php) to cache and retrieve the database objects. Before any development can commence, a determination is needed as to what part of the database object/structure needs to be cached and what is not to be cached.</p>
+ 
+<h2>Wordpress Caching</h2>
+<p>Wordpress has built in memory caching via it’s object cache functions and uses local memory by default. This is an implicit caching model as only those items or object particularly in need of caching will be cached by invoking the object caching functions. The wordpress caching model can be overridden by adding an object-cache.php file in the wp-content directory. There is an available object-cache drop in for Memcache but that component must be fixed to enable memcache server pool replication. This replication is enabled by changing the memcache function invocation from addServer to implicit memcache add and then looping through the available memcache connections to add to each server within the pool. See the advanced-cache drop in for a good implementation of handling the memcache server pool connections. This ensures that only those memcache servers connections are available.</p>
+
+<h2>The Future</h2>
+<p>During the course of the discovery and development of WPTRUECACHE-HA, there were many questions and issues that arose for the proper approach for handling high availability web site infrastructure in a LAMP environment. For mission critical web sites, such as forexlive.com, a true open source solution may not be a suitable option. This being that Apache was not designed with high availability in mind nor was PHP. MySQL has a high availability version available. A true high availability LAMP infrastructure would involve building a custom version of Apache with PHP at a minimum. A group at www.linux-ha.org has an approach but it is incomplete.</p>
+<p>Just building a cluster of failover services is neither sufficient nor using virtualization for the cluster. The underlying services and applications need adaptation for high availability environments.</p>
+<p>Extreme care must be use when using Memcache for shred domain caching, as one domain can inadvertently clear (flush) the cached entries for all domains. This happens when the flush method is invoked as there is no distinguishing between domain cached content. To correct this problem, a custom Memcache PECL component must be built along with a custom memcache server to accept a server key for the flush command. There are presently two PECL memcache components (Memcache and Memcached), the difference is that Memcached provides support for a server key in additional to the hash key for all functions except the flush command.</p>
+<p>Further research and discovery is needed.</p>
+ 
+<h2>Setting up a Shared Hosting Cluster Environment</h2>
+<p>The goal is to setup a pseudo production environment emulating the components of forexlive.com. The key services include a shared host with pecl memcache extension installed (may have to make a separate request from the hosting provider), a memcached server on a different server, and a CDN such as Cloudflare which offers a free entitlement.</p>
+ 
+<p>To begin your shared cluster setup, follow these steps:</p>
+<ol> 
+<li>Sign up for a shared hosting account that offers pecl memcache php extension. One such provider is <a href="http://ref.webhostinghub.com/scripts/imp.php?ref_id=phkcorp2005&amp;ad_id=0e41874e&amp;chan=wptruecache" target="_blank">www.webhostinghub.com</a>.  After sign up you will need to submit a support request to have memcache pecl installed.</li>
+<li>Then sign up for a Windows 2003 Server VPS from <a href="https://cp.commercialnetworkservices.net/aff.php?aff=898" target="_blank">Commercial Network Services</a></li>
+<li>Sign up for a free web hosting account with another provider for use with MySQL replication.</li>
+<li>Install the <a href="<?php echo WP_PLUGIN_URL;?>/wptruecache/admin/docs/extra/memcached.zip">memcached NT service</a> on the VPS and start the service.</li>
+<li>Install Wordpress on your shared hosting service and a memcache plugin/dropin, setting the memcache server to the ip of the VPS.</li>
+<li>Configure the MySQL Master-Slave replication</li>
+<li>Create some pages from your wordpress blog, log out of admin so caching can take affect, then load some pages and verify the headers are showing cached transactions/sessions.</li>
+</ol>
+<br>
+<a href="http://ref.webhostinghub.com/scripts/click.php?ref_id=phkcorp2005&amp;ad_id=0e41874e&amp;chan=wptruecache" target="_top"><img src="http://ref.webhostinghub.com/accounts/default1/banners/hub_banner_WP_installer_250x250.jpg" style="border: 0;" alt="" width="250" height="250" /></a><img style="border:0" src="http://ref.webhostinghub.com/scripts/imp.php?ref_id=phkcorp2005&amp;ad_id=0e41874e&amp;chan=wptruecache" width="1" height="1" alt="" />
+<a href="https://cp.commercialnetworkservices.net/aff.php?aff=898"><img src="http://banners.commercialnetworkservices.net/2011/TradersVPS/cns-300x250.gif" width="336" height="280" border="0"></a> 

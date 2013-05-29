@@ -1,0 +1,35 @@
+<h2>Overview</h2>
+<div style="width:100%;">
+<div style="width:55%; float:left;">
+<p>The WP-TrueCache purpose is to provide high availability performance in a wordpress cluster environment for the universal resource locator, www.forexlive.com. This performance includes the proper implementation of Memcache distributed caching and to maintain compatibility with existing and future plug in adaptations.</p>
+ 
+<h2>Reporting Issues</h2>
+<p>When reporting issues with this plug-in, please use the following internal link <a href="http://github.com/patirkcingle/wp-truecache" target="_blank">http://github.com/patrickingle/wp-truecache</a> or send a support request to <a href="mailto:inglepatrick@yahoo.com?subject=WPTRUECACHE%20Plugin%20Support%20Assistance%20Requested">inglepatrick@yahoo.com</a>. </p>
+
+<h2>Known Issues</h2>
+<p>This list is not exhaustive, for known problems that were discovered during the development of WPTRUECACHE-HA.</p>
+<ol>
+<li>The wordpress core function wp_list_pages breaks on PHP version 5.3.8 when the core is below level 3.2.1. The current version of PHP being used (2011-11-25) is 5.2.17. If PHP is upgraded to the current version, wordpress must also be updated as well.</li>
+<li>Some browsers may not support the extra page compression and you will receive a content encoding error page. If this happens, disable the extra page compression.</li>
+</ol>
+</div>
+<script type="text/javascript">
+	var embedCode = '<?php echo $embedCode; ?>';
+</script>
+<div style="width:40%; float:right;">
+<?php echo $embedCode; ?>
+<!--
+<div id="videocontainer">
+<img border=0 width=320 height=240 onclick="document.getElementById('videocontainer').innerHTML = embedCode;" style="cursor:pointer;" title="Click here ?" src="<?php echo WP_PLUGIN_URL;?>/wptruecache/admin/docs/images/Alisa.jpg">
+</div>
+-->
+<br>
+<p>Spokesperson: <b>Alisa Lova</b><br><a href="mailto:alisalova@yahoo.com?subject=Request%20from%20Patrick%20Ingle">alisalova@yahoo.com</a><br><a href="http://www.alisalova.com" target="_blank">www.alisalova.com</a><br><a href="http://www.imdb.com/name/nm4183184" target="_blank">http://www.imdb.com/name/nm4183184</a></p>
+</div>
+</div>
+<div style="float:left;">
+<h2>Adding Plug-ins</h2>
+<p>Not all plug-ins are created equal and not all plug-ins are compatible with each other. The example being with the HyperDB and DBCache, where each plug-in had their own custom db.php file which is an override of the wordpress database object, wpdb. Each drop in had it own unique functionality where as one plug-in became active the other plug-in lost it functionality even though it was still reported as active.</p>
+<p>Future additions of plug-ins must be careful and diligent to ensure compatibility with the existing plug-ins. Recommendations is to assigned a single point of entry that is responsible for verifying the coexistence of future plug-ins. This should be separate from the person assigned to perform the actual installation of the plug-in.</p>
+</div>
+<br>

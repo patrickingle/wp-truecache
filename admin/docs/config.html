@@ -1,0 +1,68 @@
+<h2>Configuration</h2> 
+ 
+<p>The deployment of WPTRUECACHE-HA component was designed towards simplicity with minimal configuration changes if needed. The component consists of a packaged plug in that is placed in the wp-content/plugins directory of the wordpress installation, resulting in a new directory wptruecache. Before installing this file, there must be NO existing advanced-cache.php otherwise you will break other functionality when installing the WPTRUECACHE-HA.</p>
+<p>You must then activate the plugin just like any other plugin. If activation fails, descriptive messages explain the reason for the failure and how to correct the problem.</p>
+ 
+<p>There are entries for WP_CONFIG file,</p> 
+REQUIRED:<br>
+<code>
+define(‘WP_CACHE’,true);<br>
+define(‘WP_MEMCACHE_SERVERS’,’192.168.101.1,…’);<br>
+define(‘WP_MEMCACHE_PORT’,11211);<br>
+<br>
+include(ABSPATH.’wp-content/plugins/wptruecache/config.php’);<br>
+</code>
+<br>
+OPTIONAL:<br>
+<code>
+define(‘WP_MEMCACHE_FULL_SERVER_LIST’,’192.168.56.105,11211|172.19.47.180,23091’);<br>
+define(‘WP_TRUECACHE_COMPRESSION’,true);     // turns on extra gzip compression*<br>
+define(‘WP_TRUECACHE_LOCK_TIMEOUT’,5);      // sets a semaphore timeout*<br>
+define(‘WP_TRUECACHE_MEMCACHE_TIMEOUT’,30000);<br>
+define(‘WP_TRUECACHE_COMMENT_COOKIE_TIMEOUT’,(60*60*24));<br>
+define(‘WP_TRUECACHE_WAIT', 5 );<br>
+define(‘WP_TRUECACHE_NOCACHE_ITEMS’,’png|jpg|gif|js|feed|wp-login|wp-admin’);<br>
+define(‘WP_TRUECACHE_HEADERSTATS’,true);<br>
+define(‘WP_TRUECACHE_CACHEFLUSHALL’,true);<br>
+define(‘WP_TRUECACHE_TRACEON’, true);<br>
+</code>
+<br> 
+<br> 
+<p>The WP_CACHE=true setting tells wordpress to look for the advanced-cache.php file and invoke the wp_cache_postload function.</p>
+ 
+<p>The WP_MEMCACHE_SERVERS specify the memcache server pool for the memcache distributed caching. This setting consists of a comma-delimited string of the memcache server ip addresses.</p>
+ 
+<p>The WP_MEMCACHE_PORT=&lt;port number&gt; defines a global port variable for all memcache servers within the server pool. Used when the each memcache server in the cluster has the same port.</p>
+ 
+<p>The WP_MEMCACHE_FULL_SERVER_LIST is an alternative method for defining the memcache server pool with the port. The server pool list is defined as a string delimited by the pipe (‘|’) to separate each host ip address/port number configuration, e.g.  ‘host1,ip1|host2,ip2|host3,ip3’ IMPORTANT: If this setting is defined, will override the WP_MEMCACHE_SERVERS  and WP_MEMCACHE_PORT settings.</p>
+ 
+<p>When WP_TRUECACHE_COMPRESSION is set to true enables page compression before being displayed to the browser.</p>
+ 
+<p>WP_TRUECACHE_LOCK TIMEOUT sets the expiration time for the memcached item semaphore.</p>
+ 
+<p>WP_TRUECACHE_MEMCACHE_TIMEOUT sets the expiration time for a cached page.</p>
+ 
+<p>WP_TRUECACHE_COMMENT_COOKIE_TIMEOUT sets the expiration for the infamous 357 day old cookie.</p>
+ 
+<p>WP_TRUECACHE_WAIT sets the waiting time before a page reload attempt is made when the page is locked.</p>
+ 
+<p>WP_TRUECACHE_NOCACHE_ITEMS overrides the items that should not be cached. Specify the list delimited by the pipe character (‘|’)</p>
+ 
+<p>WP_TRUECACHE_HEADERSTATS will display the following stats in the header during a cache retrieval transaction: </p>
+<ul>
+<li>WP-TrueCache-Lock-Timeout (from WP_TRUECACHE_LOCK_TIMEOUT)</li>
+<li>WP-TrueCache-Memcache-Timeout (from WP_TRUECACHE_MEMCACHE_TIMEOUT)</li>
+<li>WP-TrueCache-Wait (from WP_TRUECACHE_WAIT)</li>
+<li>WP-TrueCache-Memcache-Server-Pool (from WP_MEMCACHE_SERVERS)</li>
+</ul>
+ 
+<p>WP_TRUECACHE_CACHEFLUSHALL will change the execution path when a page, post or a comment is being updated, then the entire memcache contents is flushed. This should not be set if memcache is being used for multiple domains, as the cache content for all domains will be discarded during a flushing operation.</p>
+ 
+<p>WP_TRUECACHE_TRACEON will show memcache program path execution tracing in the response headers. This is usefully for quick live debugging to verify memcache operations are valid.</p>
+ 
+<p>No further configuration operations are needed. The next time the page is loaded, the changes will be in effect.</p>
+ 
+<p> 
+IMPORTANT:
+TO TURN OFF THE WPTRUECACHE-HA, REMOVE THE WP-CACHE SETTING FROM WP-CONFIG FILE OR SET THE WP-CACHE SETTING TO FALSE. THIS TELLS WORDPRESS NOT TO LOAD THE ADVANCED-CACHE.PHP AND HENCE NOT INVOKE THE WP_CACHE_POSTLOAD FUNCTION.
+</p>
