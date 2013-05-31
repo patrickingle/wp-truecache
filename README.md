@@ -8,8 +8,10 @@ WP-CONFIG Minimum Additions
 
 The required minimum additions are needed in your wp-config.php before you can activate WP-TrueCache plugin.
 
-
-define('WP_MEMCACHE_SERVERS','[replace with an actual memcache IP address]');
-define('WP_MEMCACHE_PORT',11211);
-define('WP_CACHE',true);
-include(ABSPATH."wp-content/plugins/wp-truecache/config.php");
+<code>
+<br>
+define('WP_MEMCACHE_SERVERS','[replace with an actual memcache IP address]');<br>
+define('WP_MEMCACHE_PORT',11211);<br>
+define('WP_CACHE',true);<br>
+include(ABSPATH."wp-content/plugins/wp-truecache/config.php");<br>
+</code>

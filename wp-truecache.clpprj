@@ -1,3 +1,431 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.clpprj">
-	<settings><PM_URL><![CDATA[C:/wamp/www/]]></PM_URL><PM_HOME_URL><![CDATA[C:/wamp/www/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS></settings></project>
+	<settings><PM_URL><![CDATA[C:/wamp/www/]]></PM_URL><PM_HOME_URL><![CDATA[C:/wamp/www/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><codestructure>
+		<csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.clpprj" crc="-548942889">
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\wptruecache-activate.php" crc="733517677">
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php" crc="-352148475">
+			<phptree>
+				<treenode node="WPTRUECACHE_Object_Cache;Php:Class Name;0;205;1;675;34;;;v;;r;;d31,205;;b0,0;;m">
+					<treenode node="__construct;Php:Function Name;1;643;2;661;34;;;v;;r;;d24,643;;b0,0;;m">
+					</treenode>
+					<treenode node="__destruct;Php:Function Name;1;672;2;674;34;;;v;;r;;d23,672;;b0,0;;m">
+					</treenode>
+					<treenode node="add;Php:Function Name;1;267;2;296;34;;;v;;r;;d63,267;;b0,0;;mkey;;pdata;;pgroup;;pexpire;;p">
+					</treenode>
+					<treenode node="add_global_groups;Php:Function Name;1;305;2;310;34;;;v;;r;;d39,305;;b0,0;;mgroups;;p">
+					</treenode>
+					<treenode node="close;Php:Function Name;1;631;2;635;34;;;v;;r;;d18,631;;b0,0;;m">
+					</treenode>
+					<treenode node="decr;Php:Function Name;1;322;2;348;34;;;v;;r;;d56,322;;b0,0;;mkey;;poffset;;pgroup;;p">
+					</treenode>
+					<treenode node="delete;Php:Function Name;1;365;2;384;34;;;v;;r;;d59,365;;b0,0;;mkey;;pgroup;;pforce;;p">
+					</treenode>
+					<treenode node="failure_callback;Php:Function Name;1;614;2;617;34;;;v;;r;;d41,614;;b0,0;;mhost;;pport;;p">
+					</treenode>
+					<treenode node="flush;Php:Function Name;1;393;2;401;34;;;v;;r;;d18,393;;b0,0;;m">
+					</treenode>
+					<treenode node="get;Php:Function Name;1;420;2;459;34;;;v;;r;;d57,420;;b0,0;;mkey;;pgroup;;pforce;;p">
+					</treenode>
+					<treenode node="get_key;Php:Function Name;1;619;2;629;34;;;v;;r;;d32,619;;b0,0;;mkey;;pgroup;;p">
+					</treenode>
+					<treenode node="incr;Php:Function Name;1;471;2;497;34;;;v;;r;;d56,471;;b0,0;;mkey;;poffset;;pgroup;;p">
+					</treenode>
+					<treenode node="replace;Php:Function Name;1;511;2;519;34;;;v;;r;;d65,511;;b0,0;;mkey;;pdata;;pgroup;;pexpire;;p">
+					</treenode>
+					<treenode node="reset;Php:Function Name;1;526;2;533;34;;;v;;r;;d18,526;;b0,0;;m">
+					</treenode>
+					<treenode node="set;Php:Function Name;1;555;2;584;34;;;v;;r;;d61,555;;b0,0;;mkey;;pdata;;pgroup;;pexpire;;p">
+					</treenode>
+					<treenode node="stats;Php:Function Name;1;594;2;612;34;;;v;;r;;d18,594;;b0,0;;m">
+					</treenode>
+					<treenode node="cache;Php:Var Name;5;223;11;223;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cache_hits;Php:Var Name;5;232;16;232;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cache_misses;Php:Var Name;5;241;18;241;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cache_source;Php:Var Name;5;211;18;211;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="fc;Php:Var Name;5;214;8;214;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="global_groups;Php:Var Name;5;250;19;250;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mc;Php:Var Name;5;208;8;208;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="memcache_connections;Php:Var Name;5;210;26;210;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="memcache_pool;Php:Var Name;5;209;19;209;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="close_memcache_connected_object;Php:Function Name;0;184;1;190;34;;;v;;r;;d50,184;;b0,0;;mmcobjs;;p">
+				</treenode>
+				<treenode node="delete_from_memcache_connected_object;Php:Function Name;0;192;1;203;34;;;v;;r;;d53,192;;b0,0;;mkey;;p">
+				</treenode>
+				<treenode node="get_memcache_connected_object;Php:Function Name;0;163;1;182;34;;;v;;r;;d51,163;;b0,0;;mmcservers;;p">
+				</treenode>
+				<treenode node="get_memcache_server_list;Php:Function Name;0;108;1;161;34;;;v;;r;;d36,108;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_cache_add;Php:Function Name;0;17;1;21;34;;;v;;r;;d69,17;;b0,0;;mkey;;pdata;;pflag;;pexpire;;p">
+				</treenode>
+				<treenode node="wptruecache_cache_add_global_groups;Php:Function Name;0;83;1;87;34;;;v;;r;;d56,83;;b0,0;;mgroups;;p">
+				</treenode>
+				<treenode node="wptruecache_cache_add_non_persistent_groups;Php:Function Name;0;89;1;94;34;;;v;;r;;d64,89;;b0,0;;mgroups;;p">
+				</treenode>
+				<treenode node="wptruecache_cache_close;Php:Function Name;0;35;1;42;34;;;v;;r;;d35,35;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_cache_connection_count;Php:Function Name;0;96;1;100;34;;;v;;r;;d46,96;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_cache_decr;Php:Function Name;0;29;1;33;34;;;v;;r;;d58,29;;b0,0;;mkey;;pn;;pflag;;p">
+				</treenode>
+				<treenode node="wptruecache_cache_delete;Php:Function Name;0;44;1;48;34;;;v;;r;;d51,44;;b0,0;;mid;;pflag;;p">
+				</treenode>
+				<treenode node="wptruecache_cache_flush;Php:Function Name;0;50;1;54;34;;;v;;r;;d35,50;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_cache_get;Php:Function Name;0;56;1;60;34;;;v;;r;;d48,56;;b0,0;;mid;;pflag;;p">
+				</treenode>
+				<treenode node="wptruecache_cache_get_source;Php:Function Name;0;102;1;106;34;;;v;;r;;d40,102;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_cache_incr;Php:Function Name;0;23;1;27;34;;;v;;r;;d58,23;;b0,0;;mkey;;pn;;pflag;;p">
+				</treenode>
+				<treenode node="wptruecache_cache_init;Php:Function Name;0;62;1;66;34;;;v;;r;;d34,62;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_cache_replace;Php:Function Name;0;68;1;72;34;;;v;;r;;d73,68;;b0,0;;mkey;;pdata;;pflag;;pexpire;;p">
+				</treenode>
+				<treenode node="wptruecache_cache_set;Php:Function Name;0;74;1;81;34;;;v;;r;;d69,74;;b0,0;;mkey;;pdata;;pflag;;pexpire;;p">
+				</treenode>
+				<treenode node="wptruecache_object_cache;Php:Var Name;7;677;32;677;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php" crc="-1690643686">
+			<phptree>
+				<treenode node="wptruecache_cache;Php:Class Name;0;26;1;139;34;;;v;;r;;d24,26;;b0,0;;m">
+					<treenode node="__construct;Php:Function Name;1;34;2;57;34;;;v;;r;;d24,34;;b0,0;;m">
+					</treenode>
+					<treenode node="__destruct;Php:Function Name;1;59;2;60;34;;;v;;r;;d23,59;;b0,0;;m">
+					</treenode>
+					<treenode node="ob;Php:Function Name;1;62;2;138;34;;;v;;r;;d23,62;;b0,0;;moutput;;p">
+					</treenode>
+					<treenode node="author;Php:Var Name;5;28;12;28;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="cookies;Php:Var Name;5;27;13;27;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="http_cookies;Php:Var Name;5;29;18;29;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mcobjs;Php:Var Name;5;31;12;31;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="mcservers;Php:Var Name;5;30;15;30;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="nocache;Php:Var Name;5;32;13;32;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="admin_memcache_control;Php:Function Name;0;236;1;262;34;;;v;;r;;d73,236;;b0,0;;mcmd;;pkey;;pdata;;pflag;;pexpiration;;p">
+				</treenode>
+				<treenode node="cache_comment_approved;Php:Function Name;0;292;1;310;34;;;v;;r;;d42,292;;b0,0;;mcomment;;p">
+				</treenode>
+				<treenode node="cache_comment_cookie_lifetime;Php:Function Name;0;376;1;381;34;;;v;;r;;d50,376;;b0,0;;mlifetime;;p">
+				</treenode>
+				<treenode node="cache_post_page_updated;Php:Function Name;0;265;1;289;34;;;v;;r;;d38,265;;b0,0;;mid;;p">
+				</treenode>
+				<treenode node="flush_cached_pages_posts;Php:Function Name;0;312;1;365;34;;;v;;r;;d36,312;;b0,0;;m">
+				</treenode>
+				<treenode node="gzip_accepted;Php:Function Name;0;18;1;24;34;;;v;;r;;d24,18;;b0,0;;m">
+				</treenode>
+				<treenode node="wp_cache_postload;Php:Function Name;0;147;1;234;34;;;v;;r;;d29,147;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_ha_shutdown;Php:Function Name;0;368;1;374;34;;;v;;r;;d35,368;;b0,0;;m">
+				</treenode>
+				<treenode node="Log;Php:Var Name;7;15;11;15;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_cache;Php:Var Name;7;141;25;141;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\topics.html" crc="1314153728">
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\index.htm" crc="109726286">
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\home.html" crc="-1251085799">
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\config.html" crc="709546114">
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\changes.html" crc="-864274611">
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\architecture.html" crc="-2073118717">
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php" crc="-1410708280">
+			<phptree>
+				<treenode node="WPTRUECACHE_WPMemcachedManager;Php:Class Name;0;3;1;86;34;;;v;;r;;d37,3;;b0,0;;m">
+					<treenode node="wpmm_add_all_servers;Php:Function Name;1;31;2;39;34;;;v;;r;;d32,31;;b0,0;;m">
+					</treenode>
+					<treenode node="wpmm_add_new_server;Php:Function Name;1;41;2;56;34;;;v;;r;;d60,41;;b0,0;;mserver_host;;pserver_port;;p">
+					</treenode>
+					<treenode node="wpmm_add_server;Php:Function Name;1;58;2;60;34;;;v;;r;;d68,58;;b0,0;;mserver_id;;pserver_host;;pserver_port;;p">
+					</treenode>
+					<treenode node="wpmm_build_server_select;Php:Function Name;1;75;2;85;34;;;v;;r;;d73,75;;b0,0;;mtitle_shown;;pselected_server;;p">
+					</treenode>
+					<treenode node="wpmm_check_memcache;Php:Function Name;1;24;2;29;34;;;v;;r;;d32,24;;b0,0;;m">
+					</treenode>
+					<treenode node="wpmm_delete_server;Php:Function Name;1;62;2;72;34;;;v;;r;;d43,62;;b0,0;;mserver_id;;p">
+					</treenode>
+					<treenode node="wpmm_menu;Php:Function Name;1;15;2;21;34;;;v;;r;;d22,15;;b0,0;;m">
+					</treenode>
+					<treenode node="WPTRUECACHE_WPMemcachedManager;Php:Function Name;1;8;2;13;34;;;v;;r;;d43,8;;b0,0;;m">
+					</treenode>
+					<treenode node="memcached_servers;Php:Var Name;5;5;23;5;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="WPTRUECACHE_WPMemcachedServer;Php:Class Name;0;89;1;217;34;;;vMemcache;;c;;r;;d53,89;;b0,0;;m">
+					<treenode node="__destruct;Php:Function Name;1;213;2;215;34;;;v;;r;;d23,213;;b0,0;;m">
+					</treenode>
+					<treenode node="wpmm_all_status_table;Php:Function Name;1;116;2;165;34;;;v;;r;;d34,116;;b0,0;;m">
+					</treenode>
+					<treenode node="wpmm_check_status;Php:Function Name;1;102;2;107;34;;;v;;r;;d30,102;;b0,0;;m">
+					</treenode>
+					<treenode node="wpmm_command_row;Php:Function Name;1;206;2;210;34;;;v;;r;;d45,206;;b0,0;;mvalue;;ptitle;;p">
+					</treenode>
+					<treenode node="wpmm_flush;Php:Function Name;1;194;2;199;34;;;v;;r;;d22,194;;b0,0;;m">
+					</treenode>
+					<treenode node="wpmm_get_version;Php:Function Name;1;109;2;111;34;;;v;;r;;d29,109;;b0,0;;m">
+					</treenode>
+					<treenode node="wpmm_google_percent_bar;Php:Function Name;1;202;2;204;34;;;v;;r;;d67,202;;b0,0;;mpercentage;;pcolor;;p">
+					</treenode>
+					<treenode node="wpmm_slab_walk;Php:Function Name;1;173;2;191;34;;;v;;r;;d47,173;;b0,0;;mmax_entries;;p">
+					</treenode>
+					<treenode node="WPTRUECACHE_WPMemcachedServer;Php:Function Name;1;95;2;100;34;;;v;;r;;d112,95;;b0,0;;mmemcached_server_id;;pmemcached_server_host;;pmemcached_server_port;;p">
+					</treenode>
+					<treenode node="memcached_server_host;Php:Var Name;5;91;27;91;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="memcached_server_id;Php:Var Name;5;93;25;93;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="memcached_server_port;Php:Var Name;5;92;27;92;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="wptruecache_wpmm_edit_page;Php:Function Name;0;423;1;530;34;;;v;;r;;d37,423;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_wpmm_main_page;Php:Function Name;0;233;1;421;34;;;v;;r;;d38,233;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_wpmm_page_end;Php:Function Name;0;534;1;536;34;;;v;;r;;d36,534;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_wpmm_page_start;Php:Function Name;0;220;1;230;34;;;v;;r;;d38,220;;b0,0;;m">
+				</treenode>
+				<treenode node="wpmm_manager;Php:Var Name;1;539;14;539;34;WPTRUECACHE_WPMemcachedManager;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php" crc="1733940939">
+			<phptree>
+				<treenode node="_GET;Php:Var Name;9;19;14;19;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="activated;Php:Var Name;3;32;13;32;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="active_memcache_servers;Php:Var Name;3;50;27;50;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="active_server;Php:Var Name;40;55;54;55;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="checked;Php:Var Name;3;61;11;61;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="connected;Php:Var Name;4;54;14;54;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="email1;Php:Var Name;3;63;10;63;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="memcache_full_server_list;Php:Var Name;3;45;29;45;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="memcache_server_port;Php:Var Name;3;42;24;42;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="page;Php:Var Name;1;12;6;12;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="server;Php:Var Name;48;53;55;53;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="servers;Php:Var Name;3;40;11;40;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tab;Php:Var Name;24;13;28;13;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="tabs;Php:Var Name;1;11;6;11;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="value;Php:Var Name;3;69;9;69;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wp_cache;Php:Var Name;3;23;12;23;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-help.php" crc="851434198">
+			<phptree>
+				<treenode node="docs/index.htm;Php:Php Include;9;1;23;1;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-functions.php" crc="-2089190051">
+			<phptree>
+				<treenode node="wptruecache_admin_tabs;Php:Function Name;0;2;1;31;34;;;v;;r;;d62,2;;b0,0;;mtabs;;ppage;;pcurrent;;p">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php" crc="-1228543079">
+			<phptree>
+				<treenode node="filecache_cachecount;Php:Function Name;0;110;1;119;34;;;v;;r;;d50,110;;b0,0;;mfilelist;;pcount;;p">
+				</treenode>
+				<treenode node="filecache_expiredpages;Php:Function Name;0;121;1;132;34;;;v;;r;;d52,121;;b0,0;;mfilelist;;pcount;;p">
+				</treenode>
+				<treenode node="filecache_filelist;Php:Function Name;0;31;1;96;34;;;v;;r;;d35,31;;b0,0;;mpath;;p">
+				</treenode>
+				<treenode node="filecache_size;Php:Function Name;0;98;1;108;34;;;v;;r;;d43,98;;b0,0;;mfilelist;;psize;;p">
+				</treenode>
+				<treenode node="wp_cache_delete_buttons;Php:Function Name;0;400;1;413;34;;;v;;r;;d35,400;;b0,0;;m">
+				</treenode>
+				<treenode node="wp_cache_files;Php:Function Name;0;135;1;398;34;;;v;;r;;d26,135;;b0,0;;m">
+				</treenode>
+				<treenode node="wpsc_admin_tabs;Php:Function Name;0;2;1;27;34;;;v;;r;;d41,2;;b0,0;;mcurrent;;p">
+				</treenode>
+				<treenode node="delim;Php:Var Name;0;29;6;29;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php" crc="-1164683583">
+			<phptree>
+				<treenode node="check_perms;Php:Function Name;0;16;1;21;34;;;v;;r;;d34,16;;b0,0;;mpath;;pperm;;p">
+				</treenode>
+				<treenode node="wptruecache_activate;Php:Function Name;0;193;1;222;34;;;v;;r;;d32,193;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_backup_files;Php:Function Name;0;141;1;157;34;;;v;;r;;d45,141;;b0,0;;mfilename;;p">
+				</treenode>
+				<treenode node="wptruecache_backup_wpconfig;Php:Function Name;0;159;1;171;34;;;v;;r;;d39,159;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_check_for_conflicts;Php:Function Name;0;29;1;66;34;;;v;;r;;d43,29;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_check_for_dependencies;Php:Function Name;0;68;1;86;34;;;v;;r;;d46,68;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_check_for_existence;Php:Function Name;0;88;1;123;34;;;v;;r;;d43,88;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_copy_files;Php:Function Name;0;125;1;139;34;;;v;;r;;d34,125;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_deactivate;Php:Function Name;0;224;1;249;34;;;v;;r;;d34,224;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_error;Php:Function Name;0;23;1;27;34;;;v;;r;;d38,23;;b0,0;;mmessages;;p">
+				</treenode>
+				<treenode node="wptruecache_error_handler;Php:Function Name;0;255;1;293;34;;;v;;r;;d72,255;;b0,0;;merrno;;perrstr;;perrfile;;perrline;;p">
+				</treenode>
+				<treenode node="wptruecache_remove_files;Php:Function Name;0;173;1;191;34;;;v;;r;;d36,173;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_uninstall;Php:Function Name;0;251;1;253;34;;;v;;r;;d33,251;;b0,0;;m">
+				</treenode>
+				<treenode node="this_file;Php:Var Name;0;12;10;12;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="update_check;Php:Var Name;0;13;13;13;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php" crc="2110117895">
+			<phptree>
+				<treenode node="PhpMinifier;Php:Class Name;0;34;17;34;34;;;v;;r;;d18,34;;b0,0;;m">
+					<treenode node="compress;Php:Function Name;18;128;1;259;34;;;v;;r;;d72,128;;b3,5;;mpath;;premoveOpenCloseTags;;p">
+					</treenode>
+					<treenode node="minify;Php:Function Name;10;94;4;121;34;;;v;;r;;d53,94;;b0,5;;mpaths;;poutputFile;;p">
+					</treenode>
+					<treenode node="noSpaces;Php:Var Name;18;39;27;39;34;;;v;;r;;d-1,-1;;b3,5;;m">
+					</treenode>
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php" crc="-2078972953">
+			<phptree>
+				<treenode node="Logging;Php:Class Name;0;28;1;132;34;;;v;;r;;d14,28;;b0,0;;m">
+					<treenode node="_doWrite;Php:Function Name;4;97;5;131;34;;;v;;r;;d38,97;;b0,0;;mType;;pString;;p">
+					</treenode>
+					<treenode node="disableType;Php:Function Name;4;58;5;60;34;;;v;;r;;d32,58;;b0,0;;mType;;p">
+					</treenode>
+					<treenode node="Dumper;Php:Function Name;4;93;5;95;34;;;v;;r;;d30,93;;b0,0;;mVarName;;p">
+					</treenode>
+					<treenode node="enableType;Php:Function Name;4;62;5;64;34;;;v;;r;;d31,62;;b0,0;;mType;;p">
+					</treenode>
+					<treenode node="Error;Php:Function Name;4;76;5;78;34;;;v;;r;;d28,76;;b0,0;;mString;;p">
+					</treenode>
+					<treenode node="Fatal;Php:Function Name;4;88;5;91;34;;;v;;r;;d28,88;;b0,0;;mString;;p">
+					</treenode>
+					<treenode node="Logging;Php:Function Name;4;35;5;56;34;;;v;;r;;d41,35;;b0,0;;mTarget;;p">
+					</treenode>
+					<treenode node="Notice;Php:Function Name;4;84;5;86;34;;;v;;r;;d29,84;;b0,0;;mString;;p">
+					</treenode>
+					<treenode node="setLogHandle;Php:Function Name;4;66;5;68;34;;;v;;r;;d31,66;;b0,0;;mLH;;p">
+					</treenode>
+					<treenode node="setLogType;Php:Function Name;4;70;5;74;34;;;v;;r;;d29,70;;b0,0;;mLT;;p">
+					</treenode>
+					<treenode node="Warning;Php:Function Name;4;80;5;82;34;;;v;;r;;d30,80;;b0,0;;mString;;p">
+					</treenode>
+					<treenode node="DisAbled;Php:Var Name;8;33;17;33;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="LogHandle;Php:Var Name;8;30;18;30;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="LogType;Php:Var Name;8;31;16;31;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php" crc="1850795795">
+			<phptree>
+				<treenode node="gill_check_activation;Php:Function Name;0;48;1;50;34;;;v;;r;;d33,48;;b0,0;;m">
+				</treenode>
+				<treenode node="gill_check_deactivation;Php:Function Name;0;76;1;78;34;;;v;;r;;d35,76;;b0,0;;m">
+				</treenode>
+				<treenode node="gill_check_update;Php:Function Name;0;51;1;72;34;;;v;;r;;d29,51;;b0,0;;m">
+				</treenode>
+				<treenode node="gill_plugin_get;Php:Function Name;0;36;1;43;34;;;v;;r;;d29,36;;b0,0;;mi;;p">
+				</treenode>
+				<treenode node="gill_updates_exclude;Php:Function Name;0;22;1;30;34;;;v;;r;;d42,22;;b0,0;;mr;;purl;;p">
+				</treenode>
+				<treenode node="this_file;Php:Var Name;25;46;35;46;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php" crc="2017941308">
+			<phptree>
+				<treenode node="FileCache;Php:Class Name;0;9;1;184;34;;;v;;r;;d16,9;;b0,0;;m">
+					<treenode node="__construct;Php:Function Name;1;18;2;63;34;;;v;;r;;d24,18;;b0,0;;m">
+					</treenode>
+					<treenode node="clear;Php:Function Name;8;147;2;157;34;;;v;;r;;d28,147;;b1,0;;mid;;p">
+					</treenode>
+					<treenode node="flush;Php:Function Name;8;159;2;162;34;;;v;;r;;d25,159;;b1,0;;m">
+					</treenode>
+					<treenode node="get;Php:Function Name;9;71;2;92;34;;;v;;r;;d27,71;;b1,0;;mid;;p">
+					</treenode>
+					<treenode node="get_blogcachedir;Php:Function Name;8;164;2;166;34;;;v;;r;;d36,164;;b1,0;;m">
+					</treenode>
+					<treenode node="is_expired;Php:Function Name;8;94;2;107;34;;;v;;r;;d35,94;;b1,0;;mpath;;p">
+					</treenode>
+					<treenode node="put;Php:Function Name;8;116;2;139;34;;;v;;r;;d49,116;;b1,0;;mid;;pcache;;plifetime;;p">
+					</treenode>
+					<treenode node="rflush;Php:Function Name;8;168;2;183;34;;;v;;r;;d31,168;;b1,0;;mpath;;p">
+					</treenode>
+					<treenode node="blog_cache_dir;Php:Var Name;9;14;24;14;34;;;v;;r;;d-1,-1;;b3,0;;m">
+					</treenode>
+					<treenode node="blogcacheid;Php:Var Name;9;13;21;13;34;;;v;;r;;d-1,-1;;b3,0;;m">
+					</treenode>
+					<treenode node="cache_path;Php:Var Name;9;16;20;16;34;;;v;;r;;d-1,-1;;b3,0;;m">
+					</treenode>
+					<treenode node="data;Php:Var Name;9;10;14;10;34;;;v;;r;;d-1,-1;;b3,0;;m">
+					</treenode>
+					<treenode node="ext;Php:Var Name;9;11;13;11;34;;;v;;r;;d-1,-1;;b3,0;;m">
+					</treenode>
+					<treenode node="file_prefix;Php:Var Name;9;15;21;15;34;;;v;;r;;d-1,-1;;b3,0;;m">
+					</treenode>
+					<treenode node="path;Php:Var Name;9;12;14;12;34;;;v;;r;;d-1,-1;;b3,0;;m">
+					</treenode>
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php" crc="1165926089">
+			<phptree>
+				<treenode node="activated;Php:Var Name;0;8;10;8;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\cache.php" crc="1660494321">
+			<phptree>
+				<treenode node="wptruecache_check_cache;Php:Function Name;0;14;1;169;34;;;v;;r;;d35,14;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_object_cache;Php:Var Name;7;8;32;8;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php" crc="-1634277687">
+			<phptree>
+				<treenode node="admin_filecache;Php:Function Name;0;54;1;160;34;;;v;;r;;d27,54;;b0,0;;m">
+				</treenode>
+				<treenode node="admin_help;Php:Function Name;0;243;1;283;34;;;v;;r;;d22,243;;b0,0;;m">
+				</treenode>
+				<treenode node="admin_memcache;Php:Function Name;0;49;1;51;34;;;v;;r;;d26,49;;b0,0;;m">
+				</treenode>
+				<treenode node="admin_phpinfo;Php:Function Name;0;285;1;287;34;;;v;;r;;d25,285;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_admin_help_tabs;Php:Function Name;0;212;1;241;34;;;v;;r;;d53,212;;b0,0;;mcurrent;;p">
+				</treenode>
+				<treenode node="wptruecache_is_large_network;Php:Function Name;0;15;1;17;34;;;v;;r;;d56,15;;b0,0;;musing;;p">
+				</treenode>
+				<treenode node="wptruecache_plugin_admin_notices;Php:Function Name;0;19;1;36;34;;;v;;r;;d44,19;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_plugin_menu;Php:Function Name;0;38;1;45;34;;;v;;r;;d35,38;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_write_config;Php:Function Name;0;162;1;210;34;;;v;;r;;d36,162;;b0,0;;m">
+				</treenode>
+			</phptree>
+		</csfile></codestructure></project>
