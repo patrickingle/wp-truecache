@@ -19,5 +19,5 @@ include(ABSPATH."wp-content/plugins/wp-truecache/config.php");<br>
 Screenshots
 ===========
 
-<img src="WP-TrueCache-Dashboard-Pg01.png"><br/>
-<img src="WP-TrueCache-Dashboard-Pg02.png"><br/>
+![ScreenShot](https://raw.github.com/patrickingle/wp-truecache/WP-TrueCache-Dashboard-Pg01.png)
+![ScreenShot](https://raw.github.com/patrickingle/wp-truecache/WP-TrueCache-Dashboard-Pg02.png)
