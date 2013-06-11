@@ -19,5 +19,6 @@ include(ABSPATH."wp-content/plugins/wp-truecache/config.php");<br>
 Screenshots
 ===========
 
-![ScreenShot](https://raw.github.com/patrickingle/wp-truecache/WP-TrueCache-Dashboard-Pg01.png)
-![ScreenShot](https://raw.github.com/patrickingle/wp-truecache/WP-TrueCache-Dashboard-Pg02.png)
+<a href="http://www.flickr.com/photos/97331227@N06/9015426323/" title="WP-TrueCache-Dashboard_Pg01 by inglepatrick, on Flickr"><img src="http://farm3.staticflickr.com/2861/9015426323_f009a8e817_n.jpg" width="320" height="255" alt="WP-TrueCache-Dashboard_Pg01"></a>
+<br/>
+<a href="http://www.flickr.com/photos/97331227@N06/9016617426/" title="WP-TrueCache-Dashboard_Pg02 by inglepatrick, on Flickr"><img src="http://farm9.staticflickr.com/8399/9016617426_88f1959af8_n.jpg" width="320" height="210" alt="WP-TrueCache-Dashboard_Pg02"></a>
