@@ -676,7 +676,7 @@ class WPTRUECACHE_Object_Cache {
 }
 
 global $wptruecache_object_cache;
-
+$wptruecache_object_cache = new WPTRUECACHE_Object_Cache();
 
 
 ?>

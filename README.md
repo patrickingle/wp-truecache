@@ -15,3 +15,9 @@ define('WP_MEMCACHE_PORT',11211);<br>
 define('WP_CACHE',true);<br>
 include(ABSPATH."wp-content/plugins/wp-truecache/config.php");<br>
 </code>
+
+Screenshots
+===========
+
+<img src="WP-TrueCache-Dashboard-Pg01.png"><br/>
+<img src="WP-TrueCache-Dashboard-Pg02.png"><br/>
