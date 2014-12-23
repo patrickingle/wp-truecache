@@ -43,4 +43,12 @@ Wordpress is one of those web application frameworks that is so complex, that tr
 
 Ask me how you can get this book for Free?
 
+Videos
+======
+
+Introduction to True Cache plugin
+
+[![True Cache Plugin for Wordpress](https://www.youtube.com/watch?v=rmBLEJbE3SE)](https://www.youtube.com/watch?v=rmBLEJbE3SE)
+
+
 
