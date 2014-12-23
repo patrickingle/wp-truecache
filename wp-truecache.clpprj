@@ -1,431 +1,850 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.clpprj">
-	<settings><PM_URL><![CDATA[C:/wamp/www/]]></PM_URL><PM_HOME_URL><![CDATA[C:/wamp/www/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><codestructure>
-		<csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.clpprj" crc="-548942889">
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\wptruecache-activate.php" crc="733517677">
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php" crc="-352148475">
-			<phptree>
-				<treenode node="WPTRUECACHE_Object_Cache;Php:Class Name;0;205;1;675;34;;;v;;r;;d31,205;;b0,0;;m">
-					<treenode node="__construct;Php:Function Name;1;643;2;661;34;;;v;;r;;d24,643;;b0,0;;m">
-					</treenode>
-					<treenode node="__destruct;Php:Function Name;1;672;2;674;34;;;v;;r;;d23,672;;b0,0;;m">
+	<settings><PM_URL><![CDATA[C:/wamp/www/]]></PM_URL><PM_HOME_URL><![CDATA[C:/wamp/www/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><errors version="4.5">
+		<errfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php">
+			<error val="23;177;31;177;302;2;"/>
+			<error val="22;180;30;180;302;2;"/>
+		</errfile>
+	</errors>
+	<codestructure version="4.6.1">
+		<phptree>
+			<treenode node="COMMENT_COOKIE_TIMEOUT;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;23;31;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DATESTRING_FULL;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f8;22;23;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="docs/index.htm;PHP:PHP Include;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-help.php;f9;1;23;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="FS_ROOTDIR;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f8;25;18;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="L_STDERR;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f8;20;16;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="L_STDOUT;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f8;21;16;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="LOCK_TIMEOUT;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;21;21;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="MEMCACHE_TIMEOUT;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;22;25;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WP_TRUECACHE_TRACEON;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;30;29;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_ADVANCED_CACHE_INSTALLED;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f9;12;45;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_LAST_REVISION_DATE;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;11;39;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_MEMCACHE_PORT;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;26;34;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_NOCACHE_ITEMS;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;25;34;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_OBJECT_CACHE_INSTALLED;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f10;11;44;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_PLUGIN_AUTHOR;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;13;34;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_PLUGIN_AUTHOR_EMAIL;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;14;40;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_UPDATE_URL;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;28;31;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_VERSION;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;12;28;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_VERSION_LEVEL;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;10;34;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_VIDEO_ENABLED;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;15;34;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_VIDEO_POSTER;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;18;33;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_VIDEO_SOURCE;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;16;33;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_VIDEO_TYPE;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;17;31;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_WAIT;PHP:PHP Word;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f9;24;25;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="FileCache;PHP:Class Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f0;9;1;184;;;;vpos;;v;;r;;d16,9;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f1;18;2;63;;;;vpos;;v;;r;;d24,18;;b0,0;;m">
+				</treenode>
+				<treenode node="clear;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f8;147;2;157;;;;vpos;;v;;r;;d28,147;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f23;147;26;147;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="add;Php:Function Name;1;267;2;296;34;;;v;;r;;d63,267;;b0,0;;mkey;;pdata;;pgroup;;pexpire;;p">
+				</treenode>
+				<treenode node="flush;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f8;159;2;162;;;;vpos;;v;;r;;d25,159;;b1,0;;m">
+				</treenode>
+				<treenode node="get;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f9;71;2;92;;;;vpos;;v;;r;;d27,71;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f22;71;25;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="add_global_groups;Php:Function Name;1;305;2;310;34;;;v;;r;;d39,305;;b0,0;;mgroups;;p">
+				</treenode>
+				<treenode node="get_blogcachedir;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f8;164;2;166;;;;vpos;;v;;r;;d36,164;;b1,0;;m">
+				</treenode>
+				<treenode node="is_expired;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f8;94;2;107;;;;vpos;;v;;r;;d35,94;;b1,0;;mpath;;p">
+					<treenode node="path;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f28;94;33;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="close;Php:Function Name;1;631;2;635;34;;;v;;r;;d18,631;;b0,0;;m">
+				</treenode>
+				<treenode node="put;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f8;116;2;139;;;;vpos;;v;;r;;d49,116;;b1,0;;mid;;pcache;;plifetime;;p">
+					<treenode node="cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f26;116;32;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="decr;Php:Function Name;1;322;2;348;34;;;v;;r;;d56,322;;b0,0;;mkey;;poffset;;pgroup;;p">
+					<treenode node="id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f21;116;24;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="delete;Php:Function Name;1;365;2;384;34;;;v;;r;;d59,365;;b0,0;;mkey;;pgroup;;pforce;;p">
+					<treenode node="lifetime;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f34;116;43;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="failure_callback;Php:Function Name;1;614;2;617;34;;;v;;r;;d41,614;;b0,0;;mhost;;pport;;p">
+				</treenode>
+				<treenode node="rflush;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f8;168;2;183;;;;vpos;;v;;r;;d31,168;;b1,0;;mpath;;p">
+					<treenode node="path;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f24;168;29;168;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="flush;Php:Function Name;1;393;2;401;34;;;v;;r;;d18,393;;b0,0;;m">
+				</treenode>
+				<treenode node="blog_cache_dir;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f9;14;24;14;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="blogcacheid;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f9;13;21;13;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="cache_path;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f9;16;20;16;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="data;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f9;10;14;10;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="ext;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f9;11;13;11;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="file_prefix;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f9;15;21;15;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="path;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php;f9;12;14;12;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Logging;PHP:Class Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f0;28;1;132;;;;vpos;;v;;r;;d14,28;;b0,0;;m">
+				<treenode node="_doWrite;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;97;5;131;;;;vpos;;v;;r;;d38,97;;b0,0;;mType;;pString;;p">
+					<treenode node="String;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f29;97;36;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="get;Php:Function Name;1;420;2;459;34;;;v;;r;;d57,420;;b0,0;;mkey;;pgroup;;pforce;;p">
+					<treenode node="Type;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f22;97;27;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="get_key;Php:Function Name;1;619;2;629;34;;;v;;r;;d32,619;;b0,0;;mkey;;pgroup;;p">
+				</treenode>
+				<treenode node="disableType;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;58;5;60;;;;vpos;;v;;r;;d32,58;;b0,0;;mType;;p">
+					<treenode node="Type;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f25;58;30;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="incr;Php:Function Name;1;471;2;497;34;;;v;;r;;d56,471;;b0,0;;mkey;;poffset;;pgroup;;p">
+				</treenode>
+				<treenode node="Dumper;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;93;5;95;;;;vpos;;v;;r;;d30,93;;b0,0;;mVarName;;p">
+					<treenode node="VarName;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f20;93;28;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="replace;Php:Function Name;1;511;2;519;34;;;v;;r;;d65,511;;b0,0;;mkey;;pdata;;pgroup;;pexpire;;p">
+				</treenode>
+				<treenode node="enableType;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;62;5;64;;;;vpos;;v;;r;;d31,62;;b0,0;;mType;;p">
+					<treenode node="Type;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f24;62;29;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="reset;Php:Function Name;1;526;2;533;34;;;v;;r;;d18,526;;b0,0;;m">
+				</treenode>
+				<treenode node="Error;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;76;5;78;;;;vpos;;v;;r;;d28,76;;b0,0;;mString;;p">
+					<treenode node="String;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f19;76;26;76;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="set;Php:Function Name;1;555;2;584;34;;;v;;r;;d61,555;;b0,0;;mkey;;pdata;;pgroup;;pexpire;;p">
+				</treenode>
+				<treenode node="Fatal;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;88;5;91;;;;vpos;;v;;r;;d28,88;;b0,0;;mString;;p">
+					<treenode node="String;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f19;88;26;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="stats;Php:Function Name;1;594;2;612;34;;;v;;r;;d18,594;;b0,0;;m">
+				</treenode>
+				<treenode node="Logging;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;35;5;56;;;;vpos;;v;;r;;d41,35;;b0,0;;mTarget;;p">
+					<treenode node="Target;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f21;35;28;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="cache;Php:Var Name;5;223;11;223;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="Notice;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;84;5;86;;;;vpos;;v;;r;;d29,84;;b0,0;;mString;;p">
+					<treenode node="String;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f20;84;27;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="cache_hits;Php:Var Name;5;232;16;232;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="setLogHandle;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;66;5;68;;;;vpos;;v;;r;;d31,66;;b0,0;;mLH;;p">
+					<treenode node="LH;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f26;66;29;66;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="cache_misses;Php:Var Name;5;241;18;241;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="setLogType;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;70;5;74;;;;vpos;;v;;r;;d29,70;;b0,0;;mLT;;p">
+					<treenode node="LT;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f24;70;27;70;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="cache_source;Php:Var Name;5;211;18;211;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="Warning;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f4;80;5;82;;;;vpos;;v;;r;;d30,80;;b0,0;;mString;;p">
+					<treenode node="String;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f21;80;28;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="fc;Php:Var Name;5;214;8;214;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="DisAbled;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f8;33;17;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="LogHandle;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f8;30;18;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="LogType;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php;f8;31;16;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="PhpMinifier;PHP:Class Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php;f0;34;17;34;;;;vpos;;v;;r;;d18,34;;b0,0;;m">
+				<treenode node="compress;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php;f18;128;1;259;;;;vpos;;v;;r;;d72,128;;b3,5;;mpath;;premoveOpenCloseTags;;p">
+					<treenode node="path;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php;f36;128;41;128;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="global_groups;Php:Var Name;5;250;19;250;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="removeOpenCloseTags;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php;f43;128;63;128;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="mc;Php:Var Name;5;208;8;208;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="minify;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php;f10;94;4;121;;;;vpos;;v;;r;;d53,94;;b0,5;;mpaths;;poutputFile;;p">
+					<treenode node="outputFile;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php;f40;94;51;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="memcache_connections;Php:Var Name;5;210;26;210;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="paths;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php;f32;94;38;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="memcache_pool;Php:Var Name;5;209;19;209;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="noSpaces;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php;f18;39;27;39;;;;vpos;;v;;r;;d-1,-1;;b3,5;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache;PHP:Class Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f0;26;1;139;;;;vpos;;v;;r;;d24,26;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f1;34;2;57;;;;vpos;;v;;r;;d24,34;;b0,0;;m">
+				</treenode>
+				<treenode node="__destruct;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f1;59;2;60;;;;vpos;;v;;r;;d23,59;;b0,0;;m">
+				</treenode>
+				<treenode node="ob;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f1;62;2;138;;;;vpos;;v;;r;;d23,62;;b0,0;;moutput;;p">
+					<treenode node="output;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f14;62;21;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
+				</treenode>
+				<treenode node="author;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f5;28;12;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="close_memcache_connected_object;Php:Function Name;0;184;1;190;34;;;v;;r;;d50,184;;b0,0;;mmcobjs;;p">
+				<treenode node="cookies;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f5;27;13;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="delete_from_memcache_connected_object;Php:Function Name;0;192;1;203;34;;;v;;r;;d53,192;;b0,0;;mkey;;p">
+				<treenode node="http_cookies;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f5;29;18;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="get_memcache_connected_object;Php:Function Name;0;163;1;182;34;;;v;;r;;d51,163;;b0,0;;mmcservers;;p">
+				<treenode node="mcobjs;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f5;31;12;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="get_memcache_server_list;Php:Function Name;0;108;1;161;34;;;v;;r;;d36,108;;b0,0;;m">
+				<treenode node="mcservers;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f5;30;15;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_cache_add;Php:Function Name;0;17;1;21;34;;;v;;r;;d69,17;;b0,0;;mkey;;pdata;;pflag;;pexpire;;p">
+				<treenode node="nocache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f5;32;13;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_cache_add_global_groups;Php:Function Name;0;83;1;87;34;;;v;;r;;d56,83;;b0,0;;mgroups;;p">
+			</treenode>
+			<treenode node="WPTRUECACHE_Object_Cache;PHP:Class Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;205;1;675;;;;vpos;;v;;r;;d31,205;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;643;2;661;;;;vpos;;vnull;;r Sets up object properties;s PHP 5 style constructor;;d24,643;;b0,0;;m">
+					<treenode node="mcserver;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f25;655;34;655;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f4;656;7;656;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f36;648;41;648;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_add_non_persistent_groups;Php:Function Name;0;89;1;94;34;;;v;;r;;d64,89;;b0,0;;mgroups;;p">
+				<treenode node="__destruct;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;672;2;674;;;;vpos;;vbool;;r Will save the object cache before object is completely destroyed.;;d23,672;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_cache_close;Php:Function Name;0;35;1;42;34;;;v;;r;;d35,35;;b0,0;;m">
+				<treenode node="add;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;267;2;296;;;;vpos;;vbool;;r Adds data to the cache if it doesn't already exist.;;d63,267;;b0,0;;mint|string $key;;pmixed $data;;pstring $group;;pint $expire;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f21;267;26;267;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="expire;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f48;267;55;267;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f28;267;34;267;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f15;267;19;267;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ky;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;275;5;275;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;268;5;268;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;275;13;275;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_connection_count;Php:Function Name;0;96;1;100;34;;;v;;r;;d46,96;;b0,0;;m">
+				<treenode node="add_global_groups;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;305;2;310;;;;vpos;;v;;r Sets the list of global groups.;;d39,305;;b0,0;;marray $groups;;p">
+					<treenode node="groups;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f29;305;36;305;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;308;7;308;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_decr;Php:Function Name;0;29;1;33;34;;;v;;r;;d58,29;;b0,0;;mkey;;pn;;pflag;;p">
+				<treenode node="close;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;631;2;635;;;;vpos;;v;;r;;d18,631;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f16;632;21;632;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_delete;Php:Function Name;0;44;1;48;34;;;v;;r;;d51,44;;b0,0;;mid;;pflag;;p">
+				<treenode node="decr;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;322;2;348;;;;vpos;;vfalse;;r Decrement numeric cache item's value;;d56,322;;b0,0;;mint|string $key;;pint $offset;;pstring $group;;p">
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f35;322;41;322;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f16;322;20;322;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ky;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;324;6;324;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="offset;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f22;322;29;322;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;325;6;325;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f16;323;21;323;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_flush;Php:Function Name;0;50;1;54;34;;;v;;r;;d35,50;;b0,0;;m">
+				<treenode node="delete;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;365;2;384;;;;vpos;;vbool;;r Remove the contents of the cache key in the group;;d59,365;;b0,0;;mint|string $key;;pstring $group;;pbool $force;;p">
+					<treenode node="force;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f43;365;49;365;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f23;365;29;365;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f17;365;21;365;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ky;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;372;5;372;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;375;6;375;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f27;369;32;369;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_get;Php:Function Name;0;56;1;60;34;;;v;;r;;d48,56;;b0,0;;mid;;pflag;;p">
+				<treenode node="failure_callback;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;614;2;617;;;;vpos;;v;;r;;d41,614;;b0,0;;mhost;;pport;;p">
+					<treenode node="host;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f27;614;32;614;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="port;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f34;614;39;614;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_get_source;Php:Function Name;0;102;1;106;34;;;v;;r;;d40,102;;b0,0;;m">
+				<treenode node="flush;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;393;2;401;;;;vpos;;vbool;;r Clears the object cache of all data;;d18,393;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f16;394;21;394;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_incr;Php:Function Name;0;23;1;27;34;;;v;;r;;d58,23;;b0,0;;mkey;;pn;;pflag;;p">
+				<treenode node="get;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;420;2;459;;;;vpos;;vbool;;r Retrieves the cache contents, if it exists;;d57,420;;b0,0;;mint|string $key;;pstring $group;;pstring $force;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;428;8;428;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="force;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f41;420;47;420;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f21;420;27;420;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f15;420;19;420;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ky;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;426;5;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;421;5;421;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="stats;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f4;430;10;430;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;426;13;426;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_init;Php:Function Name;0;62;1;66;34;;;v;;r;;d34,62;;b0,0;;m">
+				<treenode node="get_key;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;619;2;629;;;;vpos;;v;;r;;d32,619;;b0,0;;mkey;;pgroup;;p">
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f24;619;30;619;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f18;619;22;619;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="prefix;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;624;10;624;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f38;623;43;623;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_replace;Php:Function Name;0;68;1;72;34;;;v;;r;;d73,68;;b0,0;;mkey;;pdata;;pflag;;pexpire;;p">
+				<treenode node="incr;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;471;2;497;;;;vpos;;vfalse;;r Increment numeric cache item's value;;d56,471;;b0,0;;mint|string $key;;pint $offset;;pstring $group;;p">
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f35;471;41;471;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f16;471;20;471;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ky;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;473;6;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="offset;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f22;471;29;471;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="rc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;474;6;474;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f16;472;21;472;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_cache_set;Php:Function Name;0;74;1;81;34;;;v;;r;;d69,74;;b0,0;;mkey;;pdata;;pflag;;pexpire;;p">
+				<treenode node="replace;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;511;2;519;;;;vpos;;vbool;;r Replace the contents in the cache, if contents already exist;;d65,511;;b0,0;;mint|string $key;;pmixed $data;;pstring $group;;pint $expire;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f24;511;29;511;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="expire;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f51;511;58;511;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f31;511;37;511;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f18;511;22;511;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f17;515;22;515;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="wptruecache_object_cache;Php:Var Name;7;677;32;677;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="reset;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;526;2;533;;;;vpos;;v;;r;;d18,526;;b0,0;;m">
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f40;528;46;528;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f23;528;28;528;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php" crc="-1690643686">
-			<phptree>
-				<treenode node="wptruecache_cache;Php:Class Name;0;26;1;139;34;;;v;;r;;d24,26;;b0,0;;m">
-					<treenode node="__construct;Php:Function Name;1;34;2;57;34;;;v;;r;;d24,34;;b0,0;;m">
+				<treenode node="set;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;555;2;584;;;;vpos;;vbool;;r Sets the data contents into the cache;;d61,555;;b0,0;;mint|string $key;;pmixed $data;;pstring $group;;pint $expire;;p">
+					<treenode node="data;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f20;555;25;555;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="expire;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f47;555;54;555;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="__destruct;Php:Function Name;1;59;2;60;34;;;v;;r;;d23,59;;b0,0;;m">
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f27;555;33;555;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="ob;Php:Function Name;1;62;2;138;34;;;v;;r;;d23,62;;b0,0;;moutput;;p">
+					<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f14;555;18;555;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="author;Php:Var Name;5;28;12;28;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="ky;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;567;5;567;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="cookies;Php:Var Name;5;27;13;27;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="rc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;556;5;556;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="http_cookies;Php:Var Name;5;29;18;29;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;567;13;567;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="mcobjs;Php:Var Name;5;31;12;31;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="stats;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;594;2;612;;;;vpos;;v;;r;;d18,594;;b0,0;;m">
+					<treenode node="cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f58;597;64;597;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="mcservers;Php:Var Name;5;30;15;30;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="group;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f48;597;54;597;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="nocache;Php:Var Name;5;32;13;32;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f16;595;21;595;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="admin_memcache_control;Php:Function Name;0;236;1;262;34;;;v;;r;;d73,236;;b0,0;;mcmd;;pkey;;pdata;;pflag;;pexpiration;;p">
+				<treenode node="cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f5;223;11;223;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="cache_comment_approved;Php:Function Name;0;292;1;310;34;;;v;;r;;d42,292;;b0,0;;mcomment;;p">
+				<treenode node="cache_hits;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f5;232;16;232;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="cache_comment_cookie_lifetime;Php:Function Name;0;376;1;381;34;;;v;;r;;d50,376;;b0,0;;mlifetime;;p">
+				<treenode node="cache_misses;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f5;241;18;241;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="cache_post_page_updated;Php:Function Name;0;265;1;289;34;;;v;;r;;d38,265;;b0,0;;mid;;p">
+				<treenode node="cache_source;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f5;211;18;211;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="flush_cached_pages_posts;Php:Function Name;0;312;1;365;34;;;v;;r;;d36,312;;b0,0;;m">
+				<treenode node="fc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f5;214;8;214;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="gzip_accepted;Php:Function Name;0;18;1;24;34;;;v;;r;;d24,18;;b0,0;;m">
+				<treenode node="global_groups;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f5;250;19;250;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wp_cache_postload;Php:Function Name;0;147;1;234;34;;;v;;r;;d29,147;;b0,0;;m">
+				<treenode node="mc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f5;208;8;208;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_ha_shutdown;Php:Function Name;0;368;1;374;34;;;v;;r;;d35,368;;b0,0;;m">
+				<treenode node="memcache_connections;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f5;210;26;210;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="Log;Php:Var Name;7;15;11;15;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="memcache_pool;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f5;209;19;209;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_cache;Php:Var Name;7;141;25;141;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="WPTRUECACHE_WPMemcachedManager;PHP:Class Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f0;3;1;86;;;;vpos;;v;;r;;d37,3;;b0,0;;m">
+				<treenode node="wpmm_add_all_servers;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;31;2;39;;;;vpos;;v;;r;;d32,31;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\topics.html" crc="1314153728">
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\index.htm" crc="109726286">
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\home.html" crc="-1251085799">
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\config.html" crc="709546114">
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\changes.html" crc="-864274611">
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\docs\architecture.html" crc="-2073118717">
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php" crc="-1410708280">
-			<phptree>
-				<treenode node="WPTRUECACHE_WPMemcachedManager;Php:Class Name;0;3;1;86;34;;;v;;r;;d37,3;;b0,0;;m">
-					<treenode node="wpmm_add_all_servers;Php:Function Name;1;31;2;39;34;;;v;;r;;d32,31;;b0,0;;m">
-					</treenode>
-					<treenode node="wpmm_add_new_server;Php:Function Name;1;41;2;56;34;;;v;;r;;d60,41;;b0,0;;mserver_host;;pserver_port;;p">
-					</treenode>
-					<treenode node="wpmm_add_server;Php:Function Name;1;58;2;60;34;;;v;;r;;d68,58;;b0,0;;mserver_id;;pserver_host;;pserver_port;;p">
-					</treenode>
-					<treenode node="wpmm_build_server_select;Php:Function Name;1;75;2;85;34;;;v;;r;;d73,75;;b0,0;;mtitle_shown;;pselected_server;;p">
-					</treenode>
-					<treenode node="wpmm_check_memcache;Php:Function Name;1;24;2;29;34;;;v;;r;;d32,24;;b0,0;;m">
+				<treenode node="wpmm_add_new_server;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;41;2;56;;;;vpos;;v;;r;;d60,41;;b0,0;;mserver_host;;pserver_port;;p">
+					<treenode node="server_host;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f31;41;43;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="wpmm_delete_server;Php:Function Name;1;62;2;72;34;;;v;;r;;d43,62;;b0,0;;mserver_id;;p">
+					<treenode node="server_port;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f45;41;57;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="wpmm_menu;Php:Function Name;1;15;2;21;34;;;v;;r;;d22,15;;b0,0;;m">
+				</treenode>
+				<treenode node="wpmm_add_server;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;58;2;60;;;;vpos;;v;;r;;d68,58;;b0,0;;mserver_id;;pserver_host;;pserver_port;;p">
+					<treenode node="server_host;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f39;58;51;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="WPTRUECACHE_WPMemcachedManager;Php:Function Name;1;8;2;13;34;;;v;;r;;d43,8;;b0,0;;m">
+					<treenode node="server_id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f27;58;37;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="memcached_servers;Php:Var Name;5;5;23;5;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="server_port;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f53;58;65;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="WPTRUECACHE_WPMemcachedServer;Php:Class Name;0;89;1;217;34;;;vMemcache;;c;;r;;d53,89;;b0,0;;m">
-					<treenode node="__destruct;Php:Function Name;1;213;2;215;34;;;v;;r;;d23,213;;b0,0;;m">
-					</treenode>
-					<treenode node="wpmm_all_status_table;Php:Function Name;1;116;2;165;34;;;v;;r;;d34,116;;b0,0;;m">
+				<treenode node="wpmm_build_server_select;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;75;2;85;;;;vpos;;v;;r;;d73,75;;b0,0;;mtitle_shown;;pselected_server;;p">
+					<treenode node="selected_server;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f50;75;66;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="wpmm_check_status;Php:Function Name;1;102;2;107;34;;;v;;r;;d30,102;;b0,0;;m">
+					<treenode node="title_shown;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f36;75;48;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="wpmm_command_row;Php:Function Name;1;206;2;210;34;;;v;;r;;d45,206;;b0,0;;mvalue;;ptitle;;p">
+				</treenode>
+				<treenode node="wpmm_check_memcache;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;24;2;29;;;;vpos;;v;;r;;d32,24;;b0,0;;m">
+				</treenode>
+				<treenode node="wpmm_delete_server;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;62;2;72;;;;vpos;;v;;r;;d43,62;;b0,0;;mserver_id;;p">
+					<treenode node="server_id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f30;62;40;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="wpmm_flush;Php:Function Name;1;194;2;199;34;;;v;;r;;d22,194;;b0,0;;m">
+				</treenode>
+				<treenode node="wpmm_menu;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;15;2;21;;;;vpos;;v;;r;;d22,15;;b0,0;;m">
+				</treenode>
+				<treenode node="WPTRUECACHE_WPMemcachedManager;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;8;2;13;;;;vpos;;v;;r;;d43,8;;b0,0;;m">
+				</treenode>
+				<treenode node="memcached_servers;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f5;5;23;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="WPTRUECACHE_WPMemcachedServer;PHP:Class Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f0;89;1;217;;;;vpos;;vMemcache;;c;;r;;d53,89;;b0,0;;m">
+				<treenode node="__destruct;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;213;2;215;;;;vpos;;v;;r;;d23,213;;b0,0;;m">
+				</treenode>
+				<treenode node="wpmm_all_status_table;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;116;2;165;;;;vpos;;v;;r;;d34,116;;b0,0;;m">
+				</treenode>
+				<treenode node="wpmm_check_status;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;102;2;107;;;;vpos;;v;;r;;d30,102;;b0,0;;m">
+				</treenode>
+				<treenode node="wpmm_command_row;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;206;2;210;;;;vpos;;v;;r;;d45,206;;b0,0;;mvalue;;ptitle;;p">
+					<treenode node="title;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f36;206;42;206;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="wpmm_get_version;Php:Function Name;1;109;2;111;34;;;v;;r;;d29,109;;b0,0;;m">
+					<treenode node="value;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f28;206;34;206;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="wpmm_google_percent_bar;Php:Function Name;1;202;2;204;34;;;v;;r;;d67,202;;b0,0;;mpercentage;;pcolor;;p">
+				</treenode>
+				<treenode node="wpmm_flush;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;194;2;199;;;;vpos;;v;;r;;d22,194;;b0,0;;m">
+				</treenode>
+				<treenode node="wpmm_get_version;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;109;2;111;;;;vpos;;v;;r;;d29,109;;b0,0;;m">
+				</treenode>
+				<treenode node="wpmm_google_percent_bar;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;202;2;204;;;;vpos;;v;;r;;d67,202;;b0,0;;mpercentage;;pcolor;;p">
+					<treenode node="color;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f48;202;54;202;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="wpmm_slab_walk;Php:Function Name;1;173;2;191;34;;;v;;r;;d47,173;;b0,0;;mmax_entries;;p">
+					<treenode node="percentage;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f35;202;46;202;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="WPTRUECACHE_WPMemcachedServer;Php:Function Name;1;95;2;100;34;;;v;;r;;d112,95;;b0,0;;mmemcached_server_id;;pmemcached_server_host;;pmemcached_server_port;;p">
+				</treenode>
+				<treenode node="wpmm_slab_walk;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;173;2;191;;;;vpos;;v;;r;;d47,173;;b0,0;;mmax_entries;;p">
+					<treenode node="max_entries;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f26;173;38;173;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="memcached_server_host;Php:Var Name;5;91;27;91;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="WPTRUECACHE_WPMemcachedServer;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;95;2;100;;;;vpos;;v;;r;;d112,95;;b0,0;;mmemcached_server_id;;pmemcached_server_host;;pmemcached_server_port;;p">
+					<treenode node="memcached_server_host;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f63;95;85;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="memcached_server_id;Php:Var Name;5;93;25;93;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="memcached_server_id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f41;95;61;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="memcached_server_port;Php:Var Name;5;92;27;92;34;;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="memcached_server_port;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f87;95;109;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="wptruecache_wpmm_edit_page;Php:Function Name;0;423;1;530;34;;;v;;r;;d37,423;;b0,0;;m">
+				<treenode node="memcached_server_host;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f5;91;27;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_wpmm_main_page;Php:Function Name;0;233;1;421;34;;;v;;r;;d38,233;;b0,0;;m">
+				<treenode node="memcached_server_id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f5;93;25;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_wpmm_page_end;Php:Function Name;0;534;1;536;34;;;v;;r;;d36,534;;b0,0;;m">
+				<treenode node="memcached_server_port;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f5;92;27;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_wpmm_page_start;Php:Function Name;0;220;1;230;34;;;v;;r;;d38,220;;b0,0;;m">
+			</treenode>
+			<treenode node="admin_filecache;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f0;54;1;160;;;;vpos;;v;;r;;d27,54;;b0,0;;m">
+			</treenode>
+			<treenode node="admin_help;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f0;243;1;283;;;;vpos;;v;;r;;d22,243;;b0,0;;m">
+			</treenode>
+			<treenode node="admin_memcache;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f0;49;1;51;;;;vpos;;v;;r;;d26,49;;b0,0;;m">
+			</treenode>
+			<treenode node="admin_memcache_control;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f0;236;1;262;;;;vpos;;v;;r;;d73,236;;b0,0;;mcmd;;pkey;;pdata;;pflag;;pexpiration;;p">
+				<treenode node="cmd;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f32;236;36;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wpmm_manager;Php:Var Name;1;539;14;539;34;WPTRUECACHE_WPMemcachedManager;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="data;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f42;236;47;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php" crc="1733940939">
-			<phptree>
-				<treenode node="_GET;Php:Var Name;9;19;14;19;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="expiration;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f58;236;69;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="activated;Php:Var Name;3;32;13;32;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="flag;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f50;236;55;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="active_memcache_servers;Php:Var Name;3;50;27;50;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f37;236;41;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="active_server;Php:Var Name;40;55;54;55;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="admin_phpinfo;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f0;285;1;287;;;;vpos;;v;;r;;d25,285;;b0,0;;m">
+			</treenode>
+			<treenode node="cache_comment_approved;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f0;292;1;310;;;;vpos;;v;;r;;d42,292;;b0,0;;mcomment;;p">
+				<treenode node="comment;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f32;292;40;292;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="checked;Php:Var Name;3;61;11;61;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="cache_comment_cookie_lifetime;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f0;376;1;381;;;;vpos;;v;;r;;d50,376;;b0,0;;mlifetime;;p">
+				<treenode node="lifetime;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f39;376;48;376;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="connected;Php:Var Name;4;54;14;54;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="cache_post_page_updated;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f0;265;1;289;;;;vpos;;v;;r;;d38,265;;b0,0;;mid;;p">
+				<treenode node="id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f33;265;36;265;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="email1;Php:Var Name;3;63;10;63;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="check_perms;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;16;1;21;;;;vpos;;v;;r;;d34,16;;b0,0;;mpath;;pperm;;p">
+				<treenode node="path;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f21;16;26;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="memcache_full_server_list;Php:Var Name;3;45;29;45;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="perm;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f27;16;32;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="memcache_server_port;Php:Var Name;3;42;24;42;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="close_memcache_connected_object;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;184;1;190;;;;vpos;;v;;r;;d50,184;;b0,0;;mmcobjs;;p">
+				<treenode node="mcobj;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f22;186;28;186;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="page;Php:Var Name;1;12;6;12;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="mcobjs;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f41;184;48;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="server;Php:Var Name;48;53;55;53;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="delete_from_memcache_connected_object;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;192;1;203;;;;vpos;;v;;r;;d53,192;;b0,0;;mkey;;p">
+				<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f47;192;51;192;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="servers;Php:Var Name;3;40;11;40;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="mcobj;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f22;197;28;197;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="tab;Php:Var Name;24;13;28;13;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="mcobjs;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;194;8;194;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="tabs;Php:Var Name;1;11;6;11;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="mcservers;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;193;11;193;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="value;Php:Var Name;3;69;9;69;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="filecache_cachecount;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f0;110;1;119;;;;vpos;;v;;r;;d50,110;;b0,0;;mfilelist;;pcount;;p">
+				<treenode node="count;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f40;110;46;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wp_cache;Php:Var Name;3;23;12;23;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="filelist;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f30;110;39;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-help.php" crc="851434198">
-			<phptree>
-				<treenode node="docs/index.htm;Php:Php Include;9;1;23;1;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="filecache_expiredpages;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f0;121;1;132;;;;vpos;;v;;r;;d52,121;;b0,0;;mfilelist;;pcount;;p">
+				<treenode node="count;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f42;121;48;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-functions.php" crc="-2089190051">
-			<phptree>
-				<treenode node="wptruecache_admin_tabs;Php:Function Name;0;2;1;31;34;;;v;;r;;d62,2;;b0,0;;mtabs;;ppage;;pcurrent;;p">
+				<treenode node="filelist;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f32;121;41;121;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php" crc="-1228543079">
-			<phptree>
-				<treenode node="filecache_cachecount;Php:Function Name;0;110;1;119;34;;;v;;r;;d50,110;;b0,0;;mfilelist;;pcount;;p">
+			</treenode>
+			<treenode node="filecache_filelist;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f0;31;1;96;;;;vpos;;v;;r;;d35,31;;b0,0;;mpath;;p">
+				<treenode node="path;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f28;31;33;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="filecache_expiredpages;Php:Function Name;0;121;1;132;34;;;v;;r;;d52,121;;b0,0;;mfilelist;;pcount;;p">
+			</treenode>
+			<treenode node="filecache_size;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f0;98;1;108;;;;vpos;;v;;r;;d43,98;;b0,0;;mfilelist;;psize;;p">
+				<treenode node="filelist;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f24;98;33;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="filecache_filelist;Php:Function Name;0;31;1;96;34;;;v;;r;;d35,31;;b0,0;;mpath;;p">
+				<treenode node="size;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f34;98;39;98;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="filecache_size;Php:Function Name;0;98;1;108;34;;;v;;r;;d43,98;;b0,0;;mfilelist;;psize;;p">
+			</treenode>
+			<treenode node="flush_cached_pages_posts;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f0;312;1;365;;;;vpos;;v;;r;;d36,312;;b0,0;;m">
+			</treenode>
+			<treenode node="get_memcache_connected_object;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;163;1;182;;;;vpos;;v;;r;;d51,163;;b0,0;;mmcservers;;p">
+				<treenode node="i;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;167;4;167;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wp_cache_delete_buttons;Php:Function Name;0;400;1;413;34;;;v;;r;;d35,400;;b0,0;;m">
+				<treenode node="mcobjs;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;164;8;164;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wp_cache_files;Php:Function Name;0;135;1;398;34;;;v;;r;;d26,135;;b0,0;;m">
+				<treenode node="mcserver;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f25;168;34;168;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wpsc_admin_tabs;Php:Function Name;0;2;1;27;34;;;v;;r;;d41,2;;b0,0;;mcurrent;;p">
+				<treenode node="mcservers;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f39;163;49;163;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="delim;Php:Var Name;0;29;6;29;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="rc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;171;6;171;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php" crc="-1164683583">
-			<phptree>
-				<treenode node="check_perms;Php:Function Name;0;16;1;21;34;;;v;;r;;d34,16;;b0,0;;mpath;;pperm;;p">
+				<treenode node="tempmc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;169;10;169;;;;vposMemcache;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_activate;Php:Function Name;0;193;1;222;34;;;v;;r;;d32,193;;b0,0;;m">
+			</treenode>
+			<treenode node="get_memcache_server_list;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;108;1;161;;;;vpos;;v;;r;;d36,108;;b0,0;;m">
+				<treenode node="i;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;113;4;113;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_backup_files;Php:Function Name;0;141;1;157;34;;;v;;r;;d45,141;;b0,0;;mfilename;;p">
+				<treenode node="mcserver;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f25;147;34;147;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_backup_wpconfig;Php:Function Name;0;159;1;171;34;;;v;;r;;d39,159;;b0,0;;m">
+				<treenode node="mcservers;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;109;11;109;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_check_for_conflicts;Php:Function Name;0;29;1;66;34;;;v;;r;;d43,29;;b0,0;;m">
+				<treenode node="port;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;126;8;126;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_check_for_dependencies;Php:Function Name;0;68;1;86;34;;;v;;r;;d46,68;;b0,0;;m">
+				<treenode node="rc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;150;6;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_check_for_existence;Php:Function Name;0;88;1;123;34;;;v;;r;;d43,88;;b0,0;;m">
+				<treenode node="results;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f1;143;9;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_copy_files;Php:Function Name;0;125;1;139;34;;;v;;r;;d34,125;;b0,0;;m">
+				<treenode node="server;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f22;114;29;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_deactivate;Php:Function Name;0;224;1;249;34;;;v;;r;;d34,224;;b0,0;;m">
+				<treenode node="servers;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f2;112;10;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_error;Php:Function Name;0;23;1;27;34;;;v;;r;;d38,23;;b0,0;;mmessages;;p">
+				<treenode node="temp;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;115;8;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_error_handler;Php:Function Name;0;255;1;293;34;;;v;;r;;d72,255;;b0,0;;merrno;;perrstr;;perrfile;;perrline;;p">
+				<treenode node="tempmc;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f3;148;10;148;;;;vposMemcache;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_remove_files;Php:Function Name;0;173;1;191;34;;;v;;r;;d36,173;;b0,0;;m">
+			</treenode>
+			<treenode node="gill_check_activation;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php;f0;48;1;50;;;;vpos;;v;;r;;d33,48;;b0,0;;m">
+			</treenode>
+			<treenode node="gill_check_deactivation;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php;f0;76;1;78;;;;vpos;;v;;r;;d35,76;;b0,0;;m">
+			</treenode>
+			<treenode node="gill_check_update;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php;f0;51;1;72;;;;vpos;;v;;r;;d29,51;;b0,0;;m">
+			</treenode>
+			<treenode node="gill_plugin_get;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php;f0;36;1;43;;;;vpos;;v;;r;;d29,36;;b0,0;;mi;;p">
+				<treenode node="i;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php;f25;36;27;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_uninstall;Php:Function Name;0;251;1;253;34;;;v;;r;;d33,251;;b0,0;;m">
+			</treenode>
+			<treenode node="gill_updates_exclude;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php;f0;22;1;30;;;;vpos;;v;;r;;d42,22;;b0,0;;mr;;purl;;p">
+				<treenode node="r;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php;f31;22;33;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="this_file;Php:Var Name;0;12;10;12;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="url;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php;f35;22;39;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="update_check;Php:Var Name;0;13;13;13;34;;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="gzip_accepted;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f0;18;1;24;;;;vpos;;v;;r;;d24,18;;b0,0;;m">
+			</treenode>
+			<treenode node="wp_cache_delete_buttons;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f0;400;1;413;;;;vpos;;v;;r;;d35,400;;b0,0;;m">
+			</treenode>
+			<treenode node="wp_cache_files;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f0;135;1;398;;;;vpos;;v;;r;;d26,135;;b0,0;;m">
+			</treenode>
+			<treenode node="wp_cache_postload;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f0;147;1;234;;;;vpos;;v;;r;;d29,147;;b0,0;;m">
+			</treenode>
+			<treenode node="wpsc_admin_tabs;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f0;2;1;27;;;;vpos;;v;;r;;d41,2;;b0,0;;mcurrent;;p">
+				<treenode node="current;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f26;2;34;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php" crc="2110117895">
-			<phptree>
-				<treenode node="PhpMinifier;Php:Class Name;0;34;17;34;34;;;v;;r;;d18,34;;b0,0;;m">
-					<treenode node="compress;Php:Function Name;18;128;1;259;34;;;v;;r;;d72,128;;b3,5;;mpath;;premoveOpenCloseTags;;p">
-					</treenode>
-					<treenode node="minify;Php:Function Name;10;94;4;121;34;;;v;;r;;d53,94;;b0,5;;mpaths;;poutputFile;;p">
-					</treenode>
-					<treenode node="noSpaces;Php:Var Name;18;39;27;39;34;;;v;;r;;d-1,-1;;b3,5;;m">
-					</treenode>
+			</treenode>
+			<treenode node="wptruecache_activate;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;193;1;222;;;;vpos;;v;;r;;d32,193;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_admin_help_tabs;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f0;212;1;241;;;;vpos;;v;;r;;d53,212;;b0,0;;mcurrent;;p">
+				<treenode node="current;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f38;212;46;212;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php" crc="-2078972953">
-			<phptree>
-				<treenode node="Logging;Php:Class Name;0;28;1;132;34;;;v;;r;;d14,28;;b0,0;;m">
-					<treenode node="_doWrite;Php:Function Name;4;97;5;131;34;;;v;;r;;d38,97;;b0,0;;mType;;pString;;p">
-					</treenode>
-					<treenode node="disableType;Php:Function Name;4;58;5;60;34;;;v;;r;;d32,58;;b0,0;;mType;;p">
-					</treenode>
-					<treenode node="Dumper;Php:Function Name;4;93;5;95;34;;;v;;r;;d30,93;;b0,0;;mVarName;;p">
-					</treenode>
-					<treenode node="enableType;Php:Function Name;4;62;5;64;34;;;v;;r;;d31,62;;b0,0;;mType;;p">
-					</treenode>
-					<treenode node="Error;Php:Function Name;4;76;5;78;34;;;v;;r;;d28,76;;b0,0;;mString;;p">
-					</treenode>
-					<treenode node="Fatal;Php:Function Name;4;88;5;91;34;;;v;;r;;d28,88;;b0,0;;mString;;p">
-					</treenode>
-					<treenode node="Logging;Php:Function Name;4;35;5;56;34;;;v;;r;;d41,35;;b0,0;;mTarget;;p">
-					</treenode>
-					<treenode node="Notice;Php:Function Name;4;84;5;86;34;;;v;;r;;d29,84;;b0,0;;mString;;p">
-					</treenode>
-					<treenode node="setLogHandle;Php:Function Name;4;66;5;68;34;;;v;;r;;d31,66;;b0,0;;mLH;;p">
-					</treenode>
-					<treenode node="setLogType;Php:Function Name;4;70;5;74;34;;;v;;r;;d29,70;;b0,0;;mLT;;p">
-					</treenode>
-					<treenode node="Warning;Php:Function Name;4;80;5;82;34;;;v;;r;;d30,80;;b0,0;;mString;;p">
-					</treenode>
-					<treenode node="DisAbled;Php:Var Name;8;33;17;33;34;;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="LogHandle;Php:Var Name;8;30;18;30;34;;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="LogType;Php:Var Name;8;31;16;31;34;;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+			</treenode>
+			<treenode node="wptruecache_admin_tabs;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-functions.php;f0;2;1;31;;;;vpos;;v;;r;;d62,2;;b0,0;;mtabs;;ppage;;pcurrent;;p">
+				<treenode node="current;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-functions.php;f47;2;55;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php" crc="1850795795">
-			<phptree>
-				<treenode node="gill_check_activation;Php:Function Name;0;48;1;50;34;;;v;;r;;d33,48;;b0,0;;m">
+				<treenode node="page;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-functions.php;f40;2;45;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="gill_check_deactivation;Php:Function Name;0;76;1;78;34;;;v;;r;;d35,76;;b0,0;;m">
+				<treenode node="tabs;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-functions.php;f33;2;38;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="gill_check_update;Php:Function Name;0;51;1;72;34;;;v;;r;;d29,51;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_backup_files;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;141;1;157;;;;vpos;;v;;r;;d45,141;;b0,0;;mfilename;;p">
+				<treenode node="filename;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f34;141;43;141;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="gill_plugin_get;Php:Function Name;0;36;1;43;34;;;v;;r;;d29,36;;b0,0;;mi;;p">
+			</treenode>
+			<treenode node="wptruecache_backup_wpconfig;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;159;1;171;;;;vpos;;v;;r;;d39,159;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_cache_add;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;17;1;21;;;;vpos;;v;;r;;d69,17;;b0,0;;mkey;;pdata;;pflag;;pexpire;;p">
+				<treenode node="data;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f37;17;42;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="gill_updates_exclude;Php:Function Name;0;22;1;30;34;;;v;;r;;d42,22;;b0,0;;mr;;purl;;p">
+				<treenode node="expire;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f56;17;63;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="this_file;Php:Var Name;25;46;35;46;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="flag;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f44;17;49;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php" crc="2017941308">
-			<phptree>
-				<treenode node="FileCache;Php:Class Name;0;9;1;184;34;;;v;;r;;d16,9;;b0,0;;m">
-					<treenode node="__construct;Php:Function Name;1;18;2;63;34;;;v;;r;;d24,18;;b0,0;;m">
-					</treenode>
-					<treenode node="clear;Php:Function Name;8;147;2;157;34;;;v;;r;;d28,147;;b1,0;;mid;;p">
-					</treenode>
-					<treenode node="flush;Php:Function Name;8;159;2;162;34;;;v;;r;;d25,159;;b1,0;;m">
-					</treenode>
-					<treenode node="get;Php:Function Name;9;71;2;92;34;;;v;;r;;d27,71;;b1,0;;mid;;p">
-					</treenode>
-					<treenode node="get_blogcachedir;Php:Function Name;8;164;2;166;34;;;v;;r;;d36,164;;b1,0;;m">
-					</treenode>
-					<treenode node="is_expired;Php:Function Name;8;94;2;107;34;;;v;;r;;d35,94;;b1,0;;mpath;;p">
-					</treenode>
-					<treenode node="put;Php:Function Name;8;116;2;139;34;;;v;;r;;d49,116;;b1,0;;mid;;pcache;;plifetime;;p">
-					</treenode>
-					<treenode node="rflush;Php:Function Name;8;168;2;183;34;;;v;;r;;d31,168;;b1,0;;mpath;;p">
-					</treenode>
-					<treenode node="blog_cache_dir;Php:Var Name;9;14;24;14;34;;;v;;r;;d-1,-1;;b3,0;;m">
-					</treenode>
-					<treenode node="blogcacheid;Php:Var Name;9;13;21;13;34;;;v;;r;;d-1,-1;;b3,0;;m">
-					</treenode>
-					<treenode node="cache_path;Php:Var Name;9;16;20;16;34;;;v;;r;;d-1,-1;;b3,0;;m">
-					</treenode>
-					<treenode node="data;Php:Var Name;9;10;14;10;34;;;v;;r;;d-1,-1;;b3,0;;m">
-					</treenode>
-					<treenode node="ext;Php:Var Name;9;11;13;11;34;;;v;;r;;d-1,-1;;b3,0;;m">
-					</treenode>
-					<treenode node="file_prefix;Php:Var Name;9;15;21;15;34;;;v;;r;;d-1,-1;;b3,0;;m">
-					</treenode>
-					<treenode node="path;Php:Var Name;9;12;14;12;34;;;v;;r;;d-1,-1;;b3,0;;m">
-					</treenode>
+				<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f31;17;35;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;18;33;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_add_global_groups;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;83;1;87;;;;vpos;;v;;r;;d56,83;;b0,0;;mgroups;;p">
+				<treenode node="groups;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f46;83;53;83;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;84;33;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_add_non_persistent_groups;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;89;1;94;;;;vpos;;v;;r;;d64,89;;b0,0;;mgroups;;p">
+				<treenode node="groups;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f54;89;61;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_close;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;35;1;42;;;;vpos;;v;;r;;d35,35;;b0,0;;m">
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;36;33;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_connection_count;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;96;1;100;;;;vpos;;v;;r;;d46,96;;b0,0;;m">
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;97;33;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_decr;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;29;1;33;;;;vpos;;v;;r;;d58,29;;b0,0;;mkey;;pn;;pflag;;p">
+				<treenode node="flag;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f46;29;51;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f32;29;36;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="n;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f38;29;40;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;30;33;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_delete;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;44;1;48;;;;vpos;;v;;r;;d51,44;;b0,0;;mid;;pflag;;p">
+				<treenode node="flag;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f39;44;44;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f34;44;37;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;45;33;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_flush;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;50;1;54;;;;vpos;;v;;r;;d35,50;;b0,0;;m">
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;51;33;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_get;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;56;1;60;;;;vpos;;v;;r;;d48,56;;b0,0;;mid;;pflag;;p">
+				<treenode node="flag;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f36;56;41;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="id;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f31;56;34;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;57;33;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_get_source;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;102;1;106;;;;vpos;;v;;r;;d40,102;;b0,0;;m">
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;103;33;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_incr;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;23;1;27;;;;vpos;;v;;r;;d58,23;;b0,0;;mkey;;pn;;pflag;;p">
+				<treenode node="flag;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f46;23;51;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f32;23;36;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="n;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f38;23;40;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;24;33;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_init;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;62;1;66;;;;vpos;;v;;r;;d34,62;;b0,0;;m">
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;63;33;63;;;;vposWPTRUECACHE_Object_Cache;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="wptruecache_cache_replace;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;68;1;72;;;;vpos;;v;;r;;d73,68;;b0,0;;mkey;;pdata;;pflag;;pexpire;;p">
+				<treenode node="data;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f41;68;46;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="expire;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f60;68;67;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="flag;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f48;68;53;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f35;68;39;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php" crc="1165926089">
-			<phptree>
-				<treenode node="activated;Php:Var Name;0;8;10;8;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;69;33;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\cache.php" crc="1660494321">
-			<phptree>
-				<treenode node="wptruecache_check_cache;Php:Function Name;0;14;1;169;34;;;v;;r;;d35,14;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_cache_set;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f0;74;1;81;;;;vpos;;v;;r;;d69,74;;b0,0;;mkey;;pdata;;pflag;;pexpire;;p">
+				<treenode node="data;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f37;74;42;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_object_cache;Php:Var Name;7;8;32;8;34;;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="expire;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f56;74;63;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile><csfile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php" crc="-1634277687">
-			<phptree>
-				<treenode node="admin_filecache;Php:Function Name;0;54;1;160;34;;;v;;r;;d27,54;;b0,0;;m">
+				<treenode node="flag;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f44;74;49;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="admin_help;Php:Function Name;0;243;1;283;34;;;v;;r;;d22,243;;b0,0;;m">
+				<treenode node="key;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f31;74;35;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="admin_memcache;Php:Function Name;0;49;1;51;34;;;v;;r;;d26,49;;b0,0;;m">
+				<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f8;75;33;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="admin_phpinfo;Php:Function Name;0;285;1;287;34;;;v;;r;;d25,285;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_check_cache;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\cache.php;f0;14;1;169;;;;vpos;;v;;r;;d35,14;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_check_for_conflicts;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;29;1;66;;;;vpos;;v;;r;;d43,29;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_check_for_dependencies;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;68;1;86;;;;vpos;;v;;r;;d46,68;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_check_for_existence;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;88;1;123;;;;vpos;;v;;r;;d43,88;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_copy_files;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;125;1;139;;;;vpos;;v;;r;;d34,125;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_deactivate;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;224;1;249;;;;vpos;;v;;r;;d34,224;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_error;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;23;1;27;;;;vpos;;v;;r;;d38,23;;b0,0;;mmessages;;p">
+				<treenode node="messages;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f27;23;36;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_admin_help_tabs;Php:Function Name;0;212;1;241;34;;;v;;r;;d53,212;;b0,0;;mcurrent;;p">
+			</treenode>
+			<treenode node="wptruecache_error_handler;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;255;1;293;;;;vpos;;v;;r;;d72,255;;b0,0;;merrno;;perrstr;;perrfile;;perrline;;p">
+				<treenode node="errfile;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f52;255;60;255;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_is_large_network;Php:Function Name;0;15;1;17;34;;;v;;r;;d56,15;;b0,0;;musing;;p">
+				<treenode node="errline;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f62;255;70;255;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_plugin_admin_notices;Php:Function Name;0;19;1;36;34;;;v;;r;;d44,19;;b0,0;;m">
+				<treenode node="errno;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f35;255;41;255;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_plugin_menu;Php:Function Name;0;38;1;45;34;;;v;;r;;d35,38;;b0,0;;m">
+				<treenode node="errstr;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f43;255;50;255;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-				<treenode node="wptruecache_write_config;Php:Function Name;0;162;1;210;34;;;v;;r;;d36,162;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_ha_shutdown;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f0;368;1;374;;;;vpos;;v;;r;;d35,368;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_is_large_network;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f0;15;1;17;;;;vpos;;v;;r;;d56,15;;b0,0;;musing;;p">
+				<treenode node="using;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f38;15;44;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
-			</phptree>
-		</csfile></codestructure></project>
+			</treenode>
+			<treenode node="wptruecache_plugin_admin_notices;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f0;19;1;36;;;;vpos;;v;;r;;d44,19;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_plugin_menu;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f0;38;1;45;;;;vpos;;v;;r;;d35,38;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_remove_files;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;173;1;191;;;;vpos;;v;;r;;d36,173;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_uninstall;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;251;1;253;;;;vpos;;v;;r;;d33,251;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_wpmm_edit_page;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f0;423;1;530;;;;vpos;;v;;r;;d37,423;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_wpmm_main_page;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f0;233;1;421;;;;vpos;;v;;r;;d38,233;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_wpmm_page_end;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f0;534;1;536;;;;vpos;;v;;r;;d36,534;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_wpmm_page_start;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f0;220;1;230;;;;vpos;;v;;r;;d38,220;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_write_config;PHP:Function Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php;f0;162;1;210;;;;vpos;;v;;r;;d36,162;;b0,0;;m">
+			</treenode>
+			<treenode node="_GET;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f9;19;14;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="activated;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f3;32;13;32;;C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php;f0;8;10;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="active_memcache_servers;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f3;50;27;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="active_server;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f40;55;54;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="checked;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f3;61;11;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="connected;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f4;54;14;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="delim;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php;f0;29;6;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="email1;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f3;63;10;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="Log;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f7;15;11;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="memcache_full_server_list;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f3;45;29;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="memcache_server_port;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f3;42;24;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="page;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f1;12;6;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="server;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f48;53;55;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="servers;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f3;40;11;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tab;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f24;13;28;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="tabs;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f1;11;6;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="this_file;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;12;10;12;;C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php;f25;46;35;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="update_check;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php;f0;13;13;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="value;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f3;69;9;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="wp_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php;f3;23;12;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="wpmm_manager;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php;f1;539;14;539;;;;vposWPTRUECACHE_WPMemcachedManager;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php;f7;141;25;141;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="wptruecache_object_cache;PHP:Var Name;C:\Users\Patrick\Documents\GitHub\wp-truecache\cache.php;f7;8;32;8;;C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php;f7;677;32;677;;;;vposWPTRUECACHE_Object_Cache;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+	</codestructure><cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><smartyassings>
+	</smartyassings><yiidata>
+	</yiidata>
+	<todoblock>
+		<todofile name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php">
+			<todo name="TODO: add decrement to file cache" pos="3;331"/>
+			<todo name="TODO: add increment to file cache" pos="3;480"/>
+			<todo name="todo This should be moved to the PHP4 style constructor, PHP5" pos="6;645"/>
+		</todofile>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\wptruecache-activate.php" crc="733517677"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\object-cache.php" crc="-609097656"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\drop-ins\advanced-cache.php" crc="-1690643686"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-memcache.php" crc="-1410708280"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-index.php" crc="1733940939"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-help.php" crc="851434198"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-functions.php" crc="-2089190051"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin\admin-filecache.php" crc="-1228543079"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\wp-truecache.php" crc="-1164683583"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\readme.txt" crc="-584842855"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\minifier.php" crc="2110117895"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\logging.php" crc="-2078972953"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\gill-updates.php" crc="1850795795"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\filecache.php" crc="2017941308"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\config.php" crc="1165926089"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\cache.php" crc="1660494321"/>
+		<file name="C:\Users\Patrick\Documents\GitHub\wp-truecache\admin.php" crc="-1634277687"/>
+	</filescache>
+</project>
