@@ -31,8 +31,13 @@ Publication
 ===========
 
 The following publication, "Wordpress High Availability: Configuration, Deployment, Maintenance Tips & Techniques" available on
-Amazon at http://www.amazon.com/dp/B00RAIMGAC shows how to implement response design in your wordpress theme using both bootstrap and foundation javascript libraries.
+Amazon at http://www.amazon.com/dp/B00RAIMGAC 
 
+High Availability means for a system to be readily available, but in today’s market and industry, there is more to being just available and needs to be quantified. High Availability have been referred to as failover techniques for downtime of hardware and introduced load balancing to relieved traffic congestion, as well as database replication for data loss prevention. A clearer definition of HA is for a website to continuously serve an unlimited number of visitors in the most efficient manner possible. High Availability configuration must also be scalable where as the visitor count increases, the configuration can be expanded to handle the increase load seamlessly to the visitor. 
+
+To achieve high availability you need to balance the load produced by the visitor traffic to your website, replicate the content for full or partial downtime, recover the content on restoration (full or partial). Before load balancing, database replication and hardware failover has been sufficient, but as web services become more complex, an additional component is coming into view, that is a distributive caching mechanism. But what happens when your HA configuration fails to perform even when all tests and measurements assure you of it’s success? What do you do? 
+
+Wordpress is one of those web application frameworks that is so complex, that traditional methods of load balancing and failover are insufficient. This document attempts to discover, uncover and implement strategies, processes and technologies that meet both current and future demands for High Availability. 
 
 <img src="http://ecx.images-amazon.com/images/I/51NqitVDtOL._BO2,204,203,200_PIsitb-sticker-v3-big,TopRight,0,-55_SX278_SY278_PIkin4,BottomRight,1,22_AA300_SH20_OU01_.jpg">
 
