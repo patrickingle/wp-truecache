@@ -53,7 +53,7 @@ Videos
 
 Introduction to True Cache plugin
 
-[![True Cache Plugin for Wordpress](https://www.youtube.com/watch?v=rmBLEJbE3SE)](https://www.youtube.com/watch?v=rmBLEJbE3SE)
+[![True Cache Plugin for Wordpress](http://img.youtube.com/vi/rmBLEJbE3SE/0.jpg)](https://www.youtube.com/watch?v=rmBLEJbE3SE)
 
 
 
