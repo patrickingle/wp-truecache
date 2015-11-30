@@ -1,7 +1,10 @@
 wp-truecache
 ============
 
-True Caching for Wordpress which implements both file-based and distributive memcache caching mechanisms
+True Caching for Wordpress which implements both file-based and distributive memcache caching mechanisms.
+
+WP-TrueCache is the first caching plugin that correctly implements Memcache with a File-base caching failover and works for multisite installations. WP-TrueCache took over 9 months to develop, to resolve CDN, Comment author, Admin, and no-cache issues. WP-TrueCache uses page buffering to cache pages to Memcache (and file-based). Some of the best features of Total Cache, SuperCache, and Memacache were combined. Using WP-TrueCache has reduce page load times down to 72 milliseconds from the common 3 second page load using Memcache/File-based, using JMeter. When WP-TrueCache occurs no database activity should be present.
+
 
 WP-CONFIG Minimum Additions
 ===========================

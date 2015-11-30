@@ -1,5 +1,5 @@
 === WP-TrueCache ===
-Version: 
+Version: 2.0.6
 Contributors: phkcorp2005
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9674139
 Tags: Cache, Memcache, SuperCache, TotalCache, Real Cache, File based caching
@@ -13,7 +13,9 @@ A plugin that properly enables Wordpress in a high available, cluster environmen
 
 == Description ==
 
- A plugin that properly enables Wordpress in a high available, cluster environment using Memcache with File caching failover. No need for separate caching plugins. This plugin handles all the caching and works with CDN. Includes filters to prevent caching on certain pages, users, etc. Detail documentation on the Admin dashboard. Multisite enabled.
+A plugin that properly enables Wordpress in a high available, cluster environment using Memcache with File caching failover. No need for separate caching plugins. This plugin handles all the caching and works with CDN. Includes filters to prevent caching on certain pages, users, etc. Detail documentation on the Admin dashboard. Multisite enabled.
+
+The following publication, "Wordpress High Availability: Configuration, Deployment, Maintenance Tips & Techniques" available on Amazon at (http://www.amazon.com/dp/B00RAIMGAC)
 
 == Installation ==
 
@@ -24,7 +26,7 @@ define('WP_MEMCACHE_SERVERS','[replace with an actual memcache IP address]');
 define('WP_MEMCACHE_PORT',11211);
 define('WP_CACHE',true);
 include(ABSPATH."wp-content/plugins/wp-truecache/config.php");
-4. Now active the plugin from the Admin dashboard.
+4. Now activate the plugin from the Admin dashboard.
 5. See the side bar menu.
 
 == Frequently asked questions ==
@@ -34,7 +36,7 @@ include(ABSPATH."wp-content/plugins/wp-truecache/config.php");
 An answer to that question.
 
 == Screenshots ==
-
+[Wordpress High Availability](http://ecx.images-amazon.com/images/I/51NqitVDtOL._SX312_BO1,204,203,200_.jpg)
 [Main Admin Dashboard](http://www.flickr.com/photos/97331227@N06/9015426323/) 
 [Architecture Page](http://www.flickr.com/photos/97331227@N06/9016617426/)
 
