@@ -54,6 +54,9 @@ Videos
 Introduction to True Cache plugin
 
 [![True Cache Plugin for Wordpress](http://img.youtube.com/vi/rmBLEJbE3SE/0.jpg)](https://www.youtube.com/watch?v=rmBLEJbE3SE)
+<br/>
+Spokesperson: Ashley Blankenship (<a href="http://www.ashleyblankenship.com" target="_blank">www.ashleyblankenship.com</a>)
+
 
 
 
