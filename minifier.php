@@ -127,36 +127,36 @@ class PhpMinifier {
     * @return array Array(openTag => bool, code => string)
     */
    static private function compress($path, $removeOpenCloseTags = TRUE) {
-      $src = php_strip_whitespace($path);
+        $src = php_strip_whitespace($path);
 
-      $code = '';
-      $openFound = FALSE;
+        $code = '';
+        $openFound = FALSE;
 
-      if(empty($src)) {
-          return array('openTag' => $openFound, 'code' => $code);
-      }
+        if (empty($src)) {
+            return array('openTag' => $openFound, 'code' => $code);
+        }
 
-      $tokens = token_get_all($src);
-      $nb     = count($tokens);
+        $tokens = token_get_all($src);
+        $nb     = count($tokens);
 
-      $nextToken    = NULL;
-      $prevToken    = NULL;
-      $prevIsSymbol = FALSE;
-      $prevSymbol   = NULL;
+        $nextToken    = NULL;
+        $prevToken    = NULL;
+        $prevIsSymbol = FALSE;
+        $prevSymbol   = NULL;
 
-      for($i = 0; $i < $nb; ++$i) {
-         $token = $tokens[$i];
+        for($i = 0; $i < $nb; ++$i) {
+            $token = $tokens[$i];
 
-         // symbols
-         if ( ! is_array($token)) {
-            $code         .= $token;
-            $prevIsSymbol  = TRUE;
-            $prevSymbol    = $token;
-            continue;
-         }
+            // symbols
+            if ( ! is_array($token)) {
+                $code         .= $token;
+                $prevIsSymbol  = TRUE;
+                $prevSymbol    = $token;
+                continue;
+            }
 
-         // use of named variables instead of array $token
-         list($index, $value) = $token;
+            // use of named variables instead of array $token
+            list($index, $value) = $token;
 
          if ($removeOpenCloseTags) {
             // ignore open token at the begining
@@ -242,20 +242,20 @@ class PhpMinifier {
          else
          if (in_array($index, self::$noSpaces)) {
             $code .= $value;
-            if ($i < $nb) {
-               $nextToken = $tokens[$i+1];
-               if (is_array($nextToken) && ($nextToken[0] === T_WHITESPACE)) {
-                  ++$i; // move forward the counter, so the next iteration will immediately stops after the T_WHITESPACE token
-               }
+                if ($i < $nb) {
+                    $nextToken = $tokens[$i+1];
+                    if (is_array($nextToken) && ($nextToken[0] === T_WHITESPACE)) {
+                        ++$i; // move forward the counter, so the next iteration will immediately stops after the T_WHITESPACE token
+                    }
+                }
+            } else {
+                    $code .= $value;
             }
-         }
-         else {
-            $code .= $value;
-         }
-         $prevIsSymbol = FALSE;
-         $prevSymbol = NULL;
-      }
-      return array('openTag' => $openFound, 'code' => $code);
-   }
+                $prevIsSymbol = FALSE;
+                $prevSymbol = NULL;
+            }
+            return array('openTag' => $openFound, 'code' => $code);
+        }
+    }
 }
 ?>
