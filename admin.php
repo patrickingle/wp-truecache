@@ -26,7 +26,7 @@ function wptruecache_plugin_admin_notices() {
 			if (defined('WP_TRUECACHE_ADMIN_NOTICE')) {
 				echo WP_TRUECACHE_ADMIN_NOTICE;
 			} else {
-				echo "<div id='notice' class='updated fade'><p>WARNING: There are no Memcache Servers connected. Please tell the webteam support at inglepatrick@yahoo.com</p></div>\n";				
+				echo "<div id='notice' class='updated fade'><p>WARNING: There are no Memcache Servers connected.</p></div>\n";				
 			}
 			//error_log();	
 			if (defined('WP_TRUECACHE_EMAILNOTIFY')) wp_mail(WP_TRUECACHE_EMAIL_1,'WARNING: No connections to Memcache Servers','No Memcache server connectivity on '.date('c'));		
@@ -45,7 +45,7 @@ function wptruecache_plugin_menu() {
 
 }
 
-include(dirname(__FILE__).'/admin/admin-memcache.php');
+//include(dirname(__FILE__).'/admin/admin-memcache.php');
 
 function admin_memcache() {
 	if (function_exists('wptruecache_wpmm_main_page')) wptruecache_wpmm_main_page();
@@ -239,6 +239,7 @@ function wptruecache_admin_help_tabs( $current = 0 ) {
 	} else {
 		echo implode( " | ", $links );
 	}
+        echo '<br/><br/>';
 }
 
 function admin_help() {
@@ -262,7 +263,7 @@ function admin_help() {
 		default:
 		case 'home':
 			if (WPTRUECACHE_VIDEO_ENABLED == TRUE) {
-				$embedCode = '<video width="320" height="240" poster="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_POSTER.'" controls="controls"><source src="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_SOURCE.'" type="'.WPTRUECACHE_VIDEO_TYPE.'" >Your browser does not support HTML5 Video element!</video>';
+				$embedCode = '<video width="320" height="240" poster="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_POSTER.'" controls><source src="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_SOURCE.'" type="'.WPTRUECACHE_VIDEO_TYPE.'" >Your browser does not support HTML5 Video element!</video>';
 			} else {
 				$embedCode = '<video width="320" height="240" poster="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_POSTER.'">Your browser does not support HTML5 Video element!</video><center><i>Video Tutorial is not available</i></center>';	
 			}

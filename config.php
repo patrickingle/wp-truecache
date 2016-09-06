@@ -13,10 +13,10 @@ define( 'WPTRUECACHE_LAST_REVISION_DATE','May 29, 2013' );
 define( 'WPTRUECACHE_VERSION','WP-TrueCache v'.WPTRUECACHE_VERSION_LEVEL);
 define( 'WPTRUECACHE_PLUGIN_AUTHOR','Patrick O Ingle');
 define( 'WPTRUECACHE_PLUGIN_AUTHOR_EMAIL','(<a href="mailto:inglepatrick@yahoo.com?subject=WP-TrueCache%20Plugin%20Support">inglepatrick@yahoo.com</a>)');
-define( 'WPTRUECACHE_VIDEO_ENABLED', FALSE );
+define( 'WPTRUECACHE_VIDEO_ENABLED', TRUE );
 define( 'WPTRUECACHE_VIDEO_SOURCE', '/wp-truecache/admin/docs/video/movie.ogg' );
 define( 'WPTRUECACHE_VIDEO_TYPE', 'video/ogg' );
-define( 'WPTRUECACHE_VIDEO_POSTER', '/wp-truecache/admin/docs/images/Alisa.jpg' );
+define( 'WPTRUECACHE_VIDEO_POSTER', '/wp-truecache/admin/docs/images/Ashley.jpg' );
 
 // locks time out after 5 seconds
 define( 'LOCK_TIMEOUT', 5 ); 
@@ -26,7 +26,7 @@ define( 'WPTRUECACHE_WAIT', 5 );
 define( 'WPTRUECACHE_NOCACHE_ITEMS', 'png|gif|jpg|js|feed|wp-login|wp-admin');
 define( 'WPTRUECACHE_MEMCACHE_PORT', 11211 );
 
-define( 'WPTRUECACHE_UPDATE_URL', 'http://localhost/plugins/wp-truecache/wptruecache.chk' );
+define( 'WPTRUECACHE_UPDATE_URL', FALSE );
 
 define( 'WP_TRUECACHE_TRACEON', TRUE );
 
