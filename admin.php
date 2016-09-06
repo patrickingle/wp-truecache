@@ -45,7 +45,7 @@ function wptruecache_plugin_menu() {
 
 }
 
-//include(dirname(__FILE__).'/admin/admin-memcache.php');
+include(dirname(__FILE__).'/admin/admin-memcache.php');
 
 function admin_memcache() {
 	if (function_exists('wptruecache_wpmm_main_page')) wptruecache_wpmm_main_page();
@@ -285,7 +285,14 @@ function admin_help() {
 }
 
 function admin_phpinfo() {
-	phpinfo();
+ob_start();
+phpinfo();
+$pinfo = ob_get_contents();
+ob_end_clean();
+ 
+$pinfo = preg_replace( '%^.*<body>(.*)</body>.*$%ms','$1',$pinfo);
+echo $pinfo;
+
 }
 
 ?>

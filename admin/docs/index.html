@@ -395,7 +395,7 @@ style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-1.0in'>2012-01-25<span
 style='font-size:7.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span>Fixed PHP Warning:&nbsp; Invalid argument supplied for foreach() in
-/www/websites/www.forexlive.com.deploy/wp-content/advanced-cache.php on line
+/advanced-cache.php on line
 360 caused when $_COOKIE parameter is not present. Change Cached User header
 value to Visitor.</p>
 
@@ -448,8 +448,7 @@ memcache errors, email and apache log file logging for plugin errors.</p>
 
 <p class=MsoNormal>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 The WPTRUECACHE-HA purpose is to provide high availability performance in a wordpress
-cluster environment for the universal resource locator, <a
-href="http://www.forexlive.com/">www.forexlive.com</a>. This performance
+cluster environment. This performance
 includes the proper implementation of Memcache distributed caching and to
 maintain compatibility with existing and future plug in adaptations.</p>
 
@@ -1129,7 +1128,7 @@ that only those memcache servers connections are available.</p>
 <p class=MsoNormal>During the course of the discovery and development of
 WPTRUECACHE-HA, there were many questions and issues that arose for the proper
 approach for handling high availability web site infrastructure in a LAMP
-environment. For mission critical web sites, such as forexlive.com, a true open
+environment. For mission critical web sites, a truly open
 source solution may not be a suitable option. This being that Apache was not
 designed with high availability in mind nor was PHP. MySQL has a high
 availability version available. A true high availability LAMP infrastructure
@@ -1166,7 +1165,7 @@ functions except the flush command. </p>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>The goal is to setup a pseudo production environment
-emulating the components of forexlive.com. The key services include a shared
+emulating the components of a high availability production system. The key services include a shared
 host with pecl memcache extension installed (may have to make a separate
 request from the hosting provider), a memcached server on a different server,
 and a CDN such as Cloudflare which offers a free entitlement.</p>

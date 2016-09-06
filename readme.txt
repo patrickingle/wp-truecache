@@ -1,10 +1,10 @@
 === WP-TrueCache ===
-Version: 2.0.6
+Version: 2.1
 Contributors: phkcorp2005
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9674139
 Tags: Cache, Memcache, SuperCache, TotalCache, Real Cache, File based caching
 Requires at least: 3.3
-Tested up to: 3.5.1
+Tested up to: 4.6
 Stable tag: 3.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -46,9 +46,10 @@ An answer to that question.
 == Screenshots ==
 [Wordpress High Availability](http://ecx.images-amazon.com/images/I/51NqitVDtOL._SX312_BO1,204,203,200_.jpg)
 [Main Admin Dashboard](http://www.flickr.com/photos/97331227@N06/9015426323/) 
-[Architecture Page](http://www.flickr.com/photos/97331227@N06/9016617426/)
 
 == Changelog ==
+= 2.1 =
+* Fixes for WP 4.6
 
 = 2.0.6 =
 * Initial Public Release

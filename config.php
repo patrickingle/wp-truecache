@@ -8,8 +8,8 @@
  
 $activated =  dirname(__FILE__).'/../wptruecache-activate.php';
 
-define( 'WPTRUECACHE_VERSION_LEVEL','2.0.6' );
-define( 'WPTRUECACHE_LAST_REVISION_DATE','May 29, 2013' );
+define( 'WPTRUECACHE_VERSION_LEVEL','2.1' );
+define( 'WPTRUECACHE_LAST_REVISION_DATE','Sep 6, 2016' );
 define( 'WPTRUECACHE_VERSION','WP-TrueCache v'.WPTRUECACHE_VERSION_LEVEL);
 define( 'WPTRUECACHE_PLUGIN_AUTHOR','Patrick O Ingle');
 define( 'WPTRUECACHE_PLUGIN_AUTHOR_EMAIL','(<a href="mailto:inglepatrick@yahoo.com?subject=WP-TrueCache%20Plugin%20Support">inglepatrick@yahoo.com</a>)');
