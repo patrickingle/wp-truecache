@@ -19,14 +19,22 @@ The following publication, "Wordpress High Availability: Configuration, Deployme
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload `wp-truecache` to the `/wp-content/plugins/` directory
+
 2. Make sure that the PHP Memcache extension is installed. Use PHP Info to verify.
+
 3. Edit wp-config.php and add the following lines just above /* That's all, stop editing! Happy blogging. */
+
 define('WP_MEMCACHE_SERVERS','[replace with an actual memcache IP address]');
+
 define('WP_MEMCACHE_PORT',11211);
+
 define('WP_CACHE',true);
+
 include(ABSPATH."wp-content/plugins/wp-truecache/config.php");
+
 4. Now activate the plugin from the Admin dashboard.
+
 5. See the side bar menu.
 
 == Frequently asked questions ==
