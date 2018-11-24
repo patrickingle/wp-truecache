@@ -11,10 +11,10 @@ $activated =  dirname(__FILE__).'/../wptruecache-activate.php';
 define( 'WPTRUECACHE_VERSION_LEVEL','2.1' );
 define( 'WPTRUECACHE_LAST_REVISION_DATE','Sep 6, 2016' );
 define( 'WPTRUECACHE_VERSION','WP-TrueCache v'.WPTRUECACHE_VERSION_LEVEL);
-define( 'WPTRUECACHE_PLUGIN_AUTHOR','Patrick O Ingle');
-define( 'WPTRUECACHE_PLUGIN_AUTHOR_EMAIL','(<a href="mailto:inglepatrick@yahoo.com?subject=WP-TrueCache%20Plugin%20Support">inglepatrick@yahoo.com</a>)');
+define( 'WPTRUECACHE_PLUGIN_AUTHOR','PressPage Entertainment Inc.');
+define( 'WPTRUECACHE_PLUGIN_AUTHOR_EMAIL','(<a href="mailto:presspage.entertainment@gmail.com?subject=WP-TrueCache%20Plugin%20Support">presspage.entertainment@gmail.com</a>)');
 define( 'WPTRUECACHE_VIDEO_ENABLED', TRUE );
-define( 'WPTRUECACHE_VIDEO_SOURCE', '/wp-truecache/admin/docs/video/movie.ogg' );
+define( 'WPTRUECACHE_VIDEO_SOURCE', 'https://www.youtube.com/embed/tRJviSQ9N54?controls=0' );
 define( 'WPTRUECACHE_VIDEO_TYPE', 'video/ogg' );
 define( 'WPTRUECACHE_VIDEO_POSTER', '/wp-truecache/admin/docs/images/Ashley.jpg' );
 

@@ -263,7 +263,8 @@ function admin_help() {
 		default:
 		case 'home':
 			if (WPTRUECACHE_VIDEO_ENABLED == TRUE) {
-				$embedCode = '<video width="320" height="240" poster="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_POSTER.'" controls><source src="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_SOURCE.'" type="'.WPTRUECACHE_VIDEO_TYPE.'" >Your browser does not support HTML5 Video element!</video>';
+				//$embedCode = '<video width="320" height="240" poster="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_POSTER.'" controls><source src="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_SOURCE.'" type="'.WPTRUECACHE_VIDEO_TYPE.'" >Your browser does not support HTML5 Video element!</video>';
+				$embedCode = '<iframe width="320" height="240" src="'.WPTRUECACHE_VIDEO_SOURCE.'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 			} else {
 				$embedCode = '<video width="320" height="240" poster="'.WP_PLUGIN_URL.WPTRUECACHE_VIDEO_POSTER.'">Your browser does not support HTML5 Video element!</video><center><i>Video Tutorial is not available</i></center>';	
 			}
